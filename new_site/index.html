@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/scrolltotop.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet"
+        href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
+        integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a71ecb4f79.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+
+    <title>Mitchell Soft</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+        <div class="container">
+
+            <!-- Brand -->
+            <a class="navbar-brand" href="#">
+                <strong>Mitchell Soft</strong>
+            </a>
+
+            <!-- Collapse -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Links -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"> <a class="nav-link" href="#">Home <span
+                                class="sr-only">(current)</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about" onclick="scrolltoview('about')">About</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#contact"
+                            onclick="scrolltoview('contact')">Contact</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav nav-flex-icons">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li class="nav-item"> <a href="#" class="nav-link" target="_blank"><i
+                                class="fab fa-twitter"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://github.com/MitchellSoftTechnology" class="nav-link border border-light rounded"
+                            target="_blank">
+                            <i class="fab fa-github mr-2"></i>MST GitHub</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Scroll to top Icon -->
+    <a href="#" onclick="scrolltoview('about')" class="scrollToTop"><i class="fas fa-arrow-up scrolltotopicon"></i></a>
+
+    <!-- Parallax image and company header -->
+    <div class="parallax">
+        <p id="company-name">Mitchell Soft</p>
+        <p id="company-tec">Technology Ltd</p>
+        <a onclick="scrolltoview('about')"><span class="bounce"></span></a>
+    </div>
+
+    <!--Main layout-->
+    <main>
+        <div class="container">
+            <hr class="my-5" id="about">
+            <br>
+            <!--Section: About section -->
+            <section>
+                <h3 class="h3 text-center mb-5">About Mitchell Soft Technology</h3>
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p>
+                            MitchellSoft Technology Ltd is a software house, based in London, providing both IT
+                            consultancy and software development services. Founded in 2011 as MitchellSoft Ltd, we began
+                            providing software development services to various companies, as well as working on our own
+                            in-house projects.
+                            Our key consultants began their professional development careers at IBM,
+                            working on numerous enterprise applications such as WebSphere MQ and CICS transaction
+                            server. Experience with all stages of the software development and product release lifecycle
+                            has given us the ability to provide clients with a high level of expertise and advice
+                            relating to best practices.
+                        </p>
+                        <p>
+                            We specialise in agile and test-driven software development, both at client sites and
+                            in-house, believing that short development cycles, prototyping and continuous customer
+                            feedback are all essential to successful product development and delivery. We believe in
+                            providing quality software solutions that are self documenting, fully tested and driven by
+                            customer requirements right from the word go, so that ongoing maintenance and enhancements
+                            are both easily achievable and quickly implemented. Code quality and simple design is at the
+                            heart of our development ethos.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 image-row">
+                        <img class="ibm-logo" src="/new_site/assets/images/websphere.png" alt="">
+                        <img class="sky-logo" src="/new_site/assets/images/5842ab6da6515b1e0ad75b0a.png" alt="">
+                    </div>
+                </div>
+            </section>
+            <!--Section: Main features & Quick Start-->
+
+            <hr class="my-5" id="contact">
+            <br class="hide-in-mobile">
+            <!--Section: Not enough-->
+            <section>
+                <h2 class="my-5 h3 text-center">Contact Us!</h2>
+
+                <div class="row formRow">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-8 formBox">
+                        <span id="overlayBox"></span>
+                        <div class="center-form">
+                            <form id="contact-form">
+                                <input type="hidden" name="email_number">
+                                <div>
+                                    <i class="icon fas fa-user-circle"></i>
+                                    <label for="from_name">Name</label>
+                                <input type="text" name="from_name" id="fullname" class="form-control" required>
+                                </div>
+                                <div>
+                                    <i class="icon fas fa-envelope"></i>
+                                    <label for="from_email">Email</label>
+                                    <input type="email" name="from_email" id="emailaddress" class="form-control"required>
+                                </div>
+                                <div>
+                                    <i class="icon fas fa-pen"></i><label for="message"> Message</label>
+                                    <textarea rows="1" name="message" maxlength="800" id="projectsummery"
+                                        class="form-control" required></textarea>
+                                </div>
+                                <div class="accepttick">
+                                    <input type="checkbox" id="terms" name="terms" value="terms" required>
+                                    <span class="terms" for="terms">Accept our <a class="signupbutton" href="">
+                                            Terms & Conditions</a></span>
+                                </div>
+                                <div class="form-row text-center">
+                                    <div class="col">
+                                        <div class="messageSent" id="messageSent"></div>
+                                        <button type="submit"
+                                            class="btn btn-secondary">Submit</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-sm-2"></div>
+                </div>
+            </section>
+            <!--Section: More-->
+
+        </div>
+    </main>
+    <!--Main layout-->
+
+    <!--Footer-->
+    <footer class="page-footer text-center font-small mt-4 wow fadeIn">
+        <hr class="my-4">
+        <!-- Social icons -->
+        <div class="pb-4">
+            <a href="https://www.facebook.com/" target="_blank">
+                <i class="fab fa-facebook-f mr-3"></i>
+            </a>
+        </div>
+        <!-- Social icons -->
+
+        <!--Copyright-->
+        <div class="copyright-footer">Copyright-&copy;
+            <script>document.write(new Date().getFullYear()); </script> Mitchell Soft Technology Ltd <a
+                class="footer-tc" href="#">-Terms & Consitions-Privacy Policy</a>
+        </div>
+        <!--/.Copyright-->
+    </footer>
+    <!--/.Footer-->
+
+
+
+</body>
+<script src="assets/js/index.js"></script>
+<script src="assets/js/scrolltotop.js"></script>
+<script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"
+    integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U"
+    crossorigin="anonymous"></script>
+<script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"
+    integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9"
+    crossorigin="anonymous"></script>
+<script>$(document).ready(function () { $('body').bootstrapMaterialDesign(); });</script>
+
+</html>

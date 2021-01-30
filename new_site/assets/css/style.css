@@ -1,0 +1,244 @@
+@font-face {
+    font-family: 'a_atmosphericregular';
+    src: url('/new_site/assets/fonts/atmospheric-rg4al-webfont.woff2') format('woff2'),
+         url('/new_site/assets/fonts/atmospheric-rg4al-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.bounce {
+    position: absolute;
+    left:50%;
+    bottom:0;
+    margin-top:-25px;
+    margin-left:-25px;
+    height:50px;
+    width:50px;
+    background: url('https://static1.squarespace.com/static/5e78f290575a6321739eba41/t/5ec8625c6dad0e25fa5a8234/1590190684880/Arrow.png');
+    background-size: 100% auto;
+    -webkit-animation:bounce 1s infinite;
+    -moz-animation:bounce 1s infinite;
+    -o-animation:bounce 1s infinite;
+    animation:bounce 1s infinite;
+  
+  }
+  
+  @-webkit-keyframes bounce {
+    0%       { bottom:0px; }
+    50%      { bottom:15px; }
+    100%     {bottom:30;}
+  }
+  
+   @-moz-keyframes bounce {
+    0%       { bottom:0px; }
+    50%      { bottom:15px; }
+    100%     {bottom:30;}
+  }
+  
+   @-o-keyframes bounce {
+    0%       { bottom:0px; }
+    50%      { bottom:15px; }
+    100%     {bottom:30;}
+  }
+  
+   @keyframes bounce {
+    0%       { bottom:0px; }
+    50%      { bottom:15px; }
+    100%     {bottom:30;}
+  }
+
+/* body{
+    background-color: #fafafa;
+} */
+
+/* .navbar-fixed {
+    position: absolute;
+    z-index:999999999;
+}
+
+
+
+/* .parallax-container {
+	min-height: 380px;
+	line-height: 0;
+	height: auto;
+	color: rgba(255,255,255,.9);
+}
+
+.parallax-container .section {
+	width: 100%;
+} */
+/* .nav-bar-background{
+    background-color: transparent;
+} */
+
+/* @media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #1C2331!important;
+    }
+} */
+
+.header-div{
+    position: relative;
+} 
+
+.view,
+body,
+html{
+    height:100%;
+}
+
+.navbar{
+    background-color:rgba(0,0,0,.2);
+}
+
+.page-footer,.top-nav-collapse{
+    background-color:#1C2331;
+}
+
+/* .view{
+    background-image: url('/new_site/assets/images/bridge.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover;
+} */
+
+.parallax {
+    /* Set a specific height */
+    min-height: 100%; 
+    background-image: url('/new_site/assets/images/bridge.jpg');
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#company-name{
+    font-family: 'a_atmosphericregular';
+    position: absolute;
+    padding-top: 10%;
+    font-size: 5rem;
+    color: #fff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+#company-tec{
+    font-family: 'a_atmosphericregular';
+    position: absolute;
+    padding-top: 15%;
+    right: 0;
+    font-size: 4.2rem;
+    color: #fff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.ibm-logo{
+    width: 20%;
+}
+
+.sky-logo{
+    padding-top: 5px;
+    width: 6%;
+}
+
+.image-row{
+    text-align: center;
+}
+
+
+/* ------------------- Media Queries -----------------*/
+
+@media only screen and (min-width: 2560px){
+
+   
+}
+
+@media only screen and (max-width: 2556px){
+
+   
+}
+
+@media only screen and (max-width: 1440px){
+
+  
+}
+
+@media only screen and (max-width: 1024px){
+    #company-name{
+        font-size: 4.5rem;
+    }
+    #company-tec{
+        font-size: 3rem;
+        padding-top: 22%;
+    }
+    
+}
+@media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #1C2331!important;
+    }
+}
+
+@media only screen and (max-width: 850px){
+    .hide-in-mobile{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #company-name{
+        font-size: 4rem;
+        padding-top: 20%;
+    }
+    #company-tec{
+        font-size: 2rem;
+        padding-top: 30%;
+    }
+    .navbar{
+        background-color:#1C2331
+    }
+
+@media only screen and (max-width: 425px){
+    #company-name{
+        font-size: 2.3rem;
+    }
+    #company-tec{
+        font-size: 1.8rem;
+    }
+   
+  
+   
+}    
+   
+
+@media only screen and (max-width: 375px){
+    #company-name{
+        font-size: 2.1rem;
+    }
+    #company-tec{
+        font-size: 1.5rem;
+    }
+    
+}    
+
+
+@media only screen and (max-width: 320px){
+    #company-name{
+        font-size: 1.8rem;
+      
+    }
+    #company-tec{
+        font-size: 1.2rem;
+        
+    }
+   
+   
+
+}
+
