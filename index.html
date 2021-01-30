@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/scrolltotop.css">
     <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet"
         href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
@@ -67,6 +68,15 @@
 
     <!-- Scroll to top Icon -->
     <a href="#" onclick="scrolltoview('about')" class="scrollToTop"><i class="fas fa-arrow-up scrolltotopicon"></i></a>
+
+    <!-- cookie consent -->
+    <div id="consent-popup" class="hidden">
+        <span id="consent-text">We use cookies to ensure that we give you the best experience on our website. By clicking
+          Accept, you agree to our use of cookies and <a href=""> Terms of Use</a>
+          <a class="btn btn-success" id="accept" href="#">Accept</a>
+        </span>
+     </div>
+
 
     <!-- Parallax image and company header -->
     <div class="parallax">
@@ -194,6 +204,7 @@
 </body>
 <script src="assets/js/index.js"></script>
 <script src="assets/js/scrolltotop.js"></script>
+<script src="assets/js/cookie_consent.js"></script>
 <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"
     integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U"
     crossorigin="anonymous"></script>
