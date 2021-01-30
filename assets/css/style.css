@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'a_atmosphericregular';
-    src: url('/new_site/assets/fonts/atmospheric-rg4al-webfont.woff2') format('woff2'),
-         url('/new_site/assets/fonts/atmospheric-rg4al-webfont.woff') format('woff');
+    src: url('/assets/fonts/atmospheric-rg4al-webfont.woff2') format('woff2'),
+         url('/assets/fonts/atmospheric-rg4al-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -51,37 +51,6 @@ html {
     100%     {bottom:30;}
   }
 
-/* body{
-    background-color: #fafafa;
-} */
-
-/* .navbar-fixed {
-    position: absolute;
-    z-index:999999999;
-}
-
-
-
-/* .parallax-container {
-	min-height: 380px;
-	line-height: 0;
-	height: auto;
-	color: rgba(255,255,255,.9);
-}
-
-.parallax-container .section {
-	width: 100%;
-} */
-/* .nav-bar-background{
-    background-color: transparent;
-} */
-
-/* @media (min-width: 800px) and (max-width: 850px) {
-    .navbar:not(.top-nav-collapse) {
-        background: #1C2331!important;
-    }
-} */
-
 .header-div{
     position: relative;
 } 
@@ -100,16 +69,10 @@ html{
     background-color:#1C2331;
 }
 
-/* .view{
-    background-image: url('/new_site/assets/images/bridge.jpg');
-    background-repeat: no-repeat; 
-    background-size: cover;
-} */
-
 .parallax {
     /* Set a specific height */
     min-height: 100%; 
-    background-image: url('/new_site/assets/images/bridge.jpg');
+    background-image: url('/assets/images/bridge.jpg');
     width: 100%;
     background-attachment: fixed;
     background-position: center;
