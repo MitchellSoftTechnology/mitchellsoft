@@ -1,8 +1,8 @@
 # mitchellsoft
 
-##Consultants
+## Consultants
 
-###Alex Mitchell
+### Alex Mitchell
 
 ![Kate Mitchell](assets/images/alex_mitchell.jpg)
 
@@ -10,7 +10,7 @@ TODO: Alex will write his blurb this week
 
 https://www.linkedin.com/in/alxmitchell/
 
-###Kate Mitchell
+### Kate Mitchell
 
 ![Kate Mitchell](assets/images/kate_mitchell.jpg)
 
@@ -29,7 +29,7 @@ quality code is evident in all that she does, and her experience in test driven 
 
 https://www.linkedin.com/in/mitchk1609/
 
-##Apps
+## Apps
 
 ### WikiD
 
@@ -66,9 +66,9 @@ page address from your phone to your friend's tablet? With Blue Toothpaste, that
 ![Blue Toothpaste](assets/images/blue_toothpaste.jpg)
 
 
-##Websites
+## Websites
 
-###The Baggy Soap Company
+### The Baggy Soap Company
 
 http://www.baggysoap.co.uk
 
