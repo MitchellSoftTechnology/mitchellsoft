@@ -29,9 +29,6 @@ quality code is evident in all that she does, and her experience in test driven 
 
 https://www.linkedin.com/in/mitchk1609/
 
-images
-<span>Photo by <a href="https://unsplash.com/@nasa?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">NASA</a> on <a href="https://unsplash.com/s/photos/code?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
-
 ##Apps
 
 ### WikiD
@@ -78,3 +75,7 @@ http://www.baggysoap.co.uk
 ### Benjamin Shepherd
 
 http://www.benjaminshepherd.com/
+
+
+images
+<span>Photo by <a href="https://unsplash.com/@nasa?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">NASA</a> on <a href="https://unsplash.com/s/photos/code?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
