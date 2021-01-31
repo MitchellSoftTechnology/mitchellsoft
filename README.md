@@ -81,7 +81,7 @@ http://www.benjaminshepherd.com/
 I'm not sure about using the IBM WebSphere and Sky logos... I think this might not be legal, unless we ask for
 permission. Instead, perhaps we could include these freely distributable logos to show what technologies we use?
 
-![Python](assets/images/python_logo.png) 
+![Python](assets/images/python-logo-generic.svg) 
 ![Java Duke mascot](assets/images/duke_java_mascot.png) 
 ![Android Robot](assets/images/android_robot.png) 
 
