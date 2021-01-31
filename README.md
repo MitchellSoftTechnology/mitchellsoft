@@ -76,6 +76,16 @@ http://www.baggysoap.co.uk
 
 http://www.benjaminshepherd.com/
 
+## Ideas
 
-images
+I'm not sure about using the IBM WebSphere and Sky logos... I think this might not be legal, unless we ask for
+permission. Instead, perhaps we could include these freely distributable logos to show what technologies we use?
+
+![Python](assets/images/python_logo.png) 
+![Java Duke mascot](assets/images/duke_java_mascot.png) 
+![Android Robot](assets/images/android_robot.png) 
+
+
+## Images
+
 <span>Photo by <a href="https://unsplash.com/@nasa?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">NASA</a> on <a href="https://unsplash.com/s/photos/code?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
