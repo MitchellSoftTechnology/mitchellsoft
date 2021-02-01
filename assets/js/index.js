@@ -1,20 +1,16 @@
 $(document).ready(function(){
-
+    // These fade in the company logos
     $("#company-name").delay(800).fadeIn(2000);
     $("#company-tec").delay(1000).fadeIn(2000);
-    // $("#company-name").animate({left: $("#company-name").parent().width() / 2 - $("#company-name").width() / 2}, 1000, 'linear');
-    // $("#company-tec").animate({right: $("#company-tec").parent().width() / 2 - $("#company-tec").width() / 2}, 1000, 'linear');
-
 })
 
-
+// This function Scrolls to seleted items down screen in smooth motion.
 function scrolltoview(itemID){
     let item = document.getElementById(itemID);
-    console.log(item);
     item.scrollIntoView({behavior: 'smooth'});
 }
 
-// This Function looks at the screen size and changes the css on the Css on the navigation bars
+// This Function looks at the screen size and changes the css on the Css on the navigation bars.
 if ($(window).width() >= 769){
     $(window).scroll(function(){
         if ($(this).scrollTop() > 100) {
@@ -25,3 +21,24 @@ if ($(window).width() >= 769){
         }
     });
 }
+
+// This function is a work around to close the navbar in mobile view after a button click.
+$('.navbar-nav li a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+});
+
+// This function gives active 
+$('.navbar-nav li').click(function() {
+    $("#home").removeClass('active');
+    $('.navbar-nav li').removeClass('active'); 
+    $(this).addClass('active');
+});
+
+// This funtion gives the Home icon an active css class if the page has 
+// returned to the top.
+$(document).scroll(function() { 
+    if($(window).scrollTop() === 0) {
+    $('.navbar-nav li').removeClass('active'); 
+    $("#home").addClass('active');
+    }
+ });

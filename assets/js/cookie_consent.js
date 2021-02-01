@@ -20,7 +20,7 @@ const cookieStorage = {
 };
   // Setting the localstorage holds the consent of the user so it only shows once.
 const storageType = cookieStorage;
-const consentPropertyName = 'gdpr_consent';
+const consentPropertyName = 'Mitchell_soft_gdpr_consent';
   
   // When we reference the local storage, if the key name is present or a value is associated with that key name
   // then this will return false, so do not show any popups. If it returns a false value and there is no value
