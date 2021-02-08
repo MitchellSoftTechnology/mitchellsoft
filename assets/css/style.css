@@ -113,13 +113,20 @@ html{
     -webkit-text-stroke-color: black;
 }
 
-.ibm-logo{
-    width: 20%;
+.juke-logo{
+    padding-top: 5px;
+    width: 5%;
+    padding-right: 15px;
 }
 
-.sky-logo{
+.android-logo{
     padding-top: 5px;
-    width: 6%;
+    width: 12%;
+    padding-right: 10px;
+}
+.python-logo{
+    margin-top: 20px;
+    width: 22%;
 }
 
 .image-row{
@@ -193,7 +200,7 @@ html{
 }
 
 @media only screen and (max-width: 850px){
-    .hide-in-mobile{
+    .breakline-hide-in-mobile{
         display: none;
     }
 }
@@ -210,6 +217,9 @@ html{
     .navbar{
         background-color:#1C2331
     }
+    .juke-logo{
+        width: 6%;
+    }
 
 @media only screen and (max-width: 425px){
     #company-name{
@@ -218,9 +228,15 @@ html{
     #company-tec{
         font-size: 1.8rem;
     }
-   
-  
-   
+    .juke-logo{
+        width: 11%;
+    }
+    .python-logo{
+        width: 40%;
+    }
+    .android-logo{
+        width: 20%;
+    } 
 }    
    
 
@@ -231,6 +247,7 @@ html{
     #company-tec{
         font-size: 1.5rem;
     }
+  
     
 }    
 
@@ -238,14 +255,19 @@ html{
 @media only screen and (max-width: 320px){
     #company-name{
         font-size: 1.8rem;
-      
     }
     #company-tec{
-        font-size: 1.2rem;
-        
+        font-size: 1.2rem;   
     }
-   
-   
-
+    .juke-logo{
+        width: 13%;
+    }
+    .python-logo{
+        width: 45%;
+    }
+    .android-logo{
+        margin-top: 4px;
+        width: 22%;
+    } 
+    
 }
-
