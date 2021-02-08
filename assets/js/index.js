@@ -34,7 +34,7 @@ $('.navbar-nav li').click(function() {
     $(this).addClass('active');
 });
 
-// This function gives active 
+// This function gives active to the about section if the boucing icon is clicked
 $('.bounce').click(function() {
     $("#home").removeClass('active');
     $('.navbar-nav li').removeClass('active'); 
