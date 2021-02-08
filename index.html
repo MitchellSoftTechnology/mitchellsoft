@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/scrolltotop.css">
     <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet"
         href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
@@ -40,9 +41,10 @@
             <!-- Links -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active"> <a class="nav-link" href="#">Home <span
+                    <li class="nav-item"> <a class="nav-link" id="home" href="#">Home <span
                                 class="sr-only">(current)</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about" onclick="scrolltoview('about')">About</a>
+                    <li class="nav-item"><a class="nav-link about" href="#about"
+                            onclick="scrolltoview('about')">About</a>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="#contact"
                             onclick="scrolltoview('contact')">Contact</a>
@@ -67,6 +69,16 @@
 
     <!-- Scroll to top Icon -->
     <a href="#" onclick="scrolltoview('about')" class="scrollToTop"><i class="fas fa-arrow-up scrolltotopicon"></i></a>
+
+    <!-- cookie consent -->
+    <div id="consent-popup" class="hidden">
+        <span id="consent-text">We use cookies to ensure that we give you the best experience on our website. By
+            clicking
+            Accept, you agree to our use of cookies and <a href=""> Terms of Use</a>
+            <a class="btn btn-success" id="accept" href="#">Accept</a>
+        </span>
+    </div>
+
 
     <!-- Parallax image and company header -->
     <div class="parallax">
@@ -110,8 +122,10 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12 image-row">
+
                         <img class="python-logo" src="/assets/images/python.png" alt="python">
                         <img class="juke-logo" src="/assets/images/duke_java_mascot.png" alt="java">
+
                     </div>
                 </div>
             </section>
@@ -133,12 +147,13 @@
                                 <div>
                                     <i class="icon fas fa-user-circle"></i>
                                     <label for="from_name">Name</label>
-                                <input type="text" name="from_name" id="fullname" class="form-control" required>
+                                    <input type="text" name="from_name" id="fullname" class="form-control" required>
                                 </div>
                                 <div>
                                     <i class="icon fas fa-envelope"></i>
                                     <label for="from_email">Email</label>
-                                    <input type="email" name="from_email" id="emailaddress" class="form-control"required>
+                                    <input type="email" name="from_email" id="emailaddress" class="form-control"
+                                        required>
                                 </div>
                                 <div>
                                     <i class="icon fas fa-pen"></i><label for="message"> Message</label>
@@ -153,8 +168,7 @@
                                 <div class="form-row text-center">
                                     <div class="col">
                                         <div class="messageSent" id="messageSent"></div>
-                                        <button type="submit"
-                                            class="btn btn-secondary">Submit</button>
+                                        <button type="submit" class="btn btn-secondary">Submit</button>
                                     </div>
                                 </div>
                             </form>
@@ -192,8 +206,10 @@
 
 
 </body>
-<script src="../assets/js/index.js"></script>
-<script src="../assets/js/scrolltotop.js"></script>
+
+<script src="assets/js/index.js"></script>
+<script src="assets/js/scrolltotop.js"></script>
+<script src="assets/js/cookie_consent.js"></script>
 <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"
     integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U"
     crossorigin="anonymous"></script>
