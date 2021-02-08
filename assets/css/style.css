@@ -1,3 +1,5 @@
+/* ---------- Fonts and general setup ---------- */
+
 @font-face {
     font-family: 'a_atmosphericregular';
     src: url('../fonts/atmospheric-rg4al-webfont.woff2') format('woff2'),
@@ -6,9 +8,59 @@
     font-style: normal;
 }
 
+/* ----------- Header and navigation ----------- */
+
 html {
-	scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
+
+.header-div{
+    position: relative;
+} 
+
+.view,
+body,
+html{
+    height:100%;
+}
+
+.navbar{
+    background-color:rgba(0,0,0,.2);
+}
+
+#company-name{
+    display:none;
+    font-family: 'a_atmosphericregular';
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding-top: 10%;
+    font-size: 5rem;
+    color: #fff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+#company-tec{
+    display: none;
+    font-family: 'a_atmosphericregular';
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding-top: 15%;
+    font-size: 4.2rem;
+    color: #fff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+/* ------------bouncing icons----------- */
 
 .bounce {
     position: absolute;
@@ -18,7 +70,7 @@ html {
     margin-left:-25px;
     height:50px;
     width:50px;
-    background: url('https://static1.squarespace.com/static/5e78f290575a6321739eba41/t/5ec8625c6dad0e25fa5a8234/1590190684880/Arrow.png');
+    background: url('../images/Arrow.png');
     background-size: 100% auto;
     -webkit-animation:bounce 1s infinite;
     -moz-animation:bounce 1s infinite;
@@ -51,23 +103,14 @@ html {
     100%     {bottom:30;}
   }
 
-.header-div{
-    position: relative;
-} 
 
-.view,
-body,
-html{
-    height:100%;
-}
-
-.navbar{
-    background-color:rgba(0,0,0,.2);
-}
+/* ----------------- Footer ------------------ */
 
 .page-footer,.top-nav-collapse{
     background-color:#1C2331;
 }
+
+/* --------------- Page Images --------------- */
 
 .parallax {
     /* Set a specific height */
@@ -78,39 +121,6 @@ html{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-#company-name{
-    display:none;
-    font-family: 'a_atmosphericregular';
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    text-align: center;
-    padding-top: 10%;
-    font-size: 5rem;
-    color: #fff;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-}
-
-
-#company-tec{
-    display: none;
-    font-family: 'a_atmosphericregular';
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    text-align: center;
-    padding-top: 15%;
-    font-size: 4.2rem;
-    color: #fff;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
 }
 
 .juke-logo{
@@ -131,6 +141,38 @@ html{
 
 .image-row{
     text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.consultant-row{
+    text-align: center;
+    box-shadow: 5px 5px 10px 0px gray;
+    margin-top: 30px;
+}
+
+.kate{
+    width: 100%;
+    border-radius: 50%;
+    padding-top: 20px;
+}
+
+.linkedin-icons{
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.alex{
+    width: 100%;
+    border-radius: 50%;
+    padding-top: 20px;
+}
+
+/* -------------- Consuntants --------------*/
+
+.consult-name{
+    font-size: 1.8rem;
+    font-weight: 700;
 }
 
 /* -------------- Consent Cookie --------------*/
