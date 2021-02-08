@@ -24,6 +24,10 @@ html{
     height:100%;
 }
 
+.hidden-in-desktop{
+    display: none;
+}
+
 .navbar{
     background-color:rgba(0,0,0,.2);
 }
@@ -145,34 +149,43 @@ html{
     margin-bottom: 30px;
 }
 
-.consultant-row{
-    text-align: center;
-    box-shadow: 5px 5px 10px 0px gray;
-    margin-top: 30px;
-}
-
-.kate{
-    width: 100%;
-    border-radius: 50%;
-    padding-top: 20px;
-}
+/* -------------- Consuntants --------------*/
 
 .linkedin-icons{
     font-size: 2rem;
     padding: 10px;
 }
 
-.alex{
+.consult-image{
     width: 100%;
-    border-radius: 50%;
-    padding-top: 20px;
+    border-radius: 10%;
 }
 
-/* -------------- Consuntants --------------*/
+.consultant-row{
+    text-align: center;
+    box-shadow: 5px 5px 10px 0px gray;
+    margin-top: 30px;
+}
 
 .consult-name{
     font-size: 1.8rem;
     font-weight: 700;
+    color: rgba(0,0,0,.8);
+}
+
+.consultant-text{
+    padding: 25px;
+    padding-top: 30px;
+    text-align: left;
+}
+
+.consult-name-image{
+    padding-top: 20px;
+}
+
+.consult-hover:hover{
+    text-decoration: none;
+    color: rgba(0,0,0,.2);
 }
 
 /* -------------- Consent Cookie --------------*/
@@ -233,6 +246,9 @@ html{
         font-size: 3rem;
         padding-top: 22%;
     }
+    .consult-name-image{
+        padding-top: 50px;
+    }
     
 }
 @media (min-width: 800px) and (max-width: 982px) {
@@ -257,11 +273,22 @@ html{
         padding-top: 30%;
     }
     .navbar{
-        background-color:#1C2331
+        background-color:#1C2331;
     }
     .juke-logo{
         width: 6%;
     }
+    .consult-name-image{
+        padding-top: 90px;
+    }
+    .consult-image{
+        width: 40%;
+    }
+    .consultant-text{
+       text-align: center;
+       width: 100%;
+    }
+}
 
 @media only screen and (max-width: 425px){
     #company-name{
@@ -279,6 +306,15 @@ html{
     .android-logo{
         width: 20%;
     } 
+    .consultant-row{
+    box-shadow: 0px 0px 0px 0px;
+    }
+    .consult-name-image{
+        padding-top: 10px;
+    }
+    .hidden-in-desktop{
+        display: block;
+    }
 }    
    
 
