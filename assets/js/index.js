@@ -10,7 +10,7 @@ function scrolltoview(itemID){
     item.scrollIntoView({behavior: 'smooth'});
 }
 
-// This Function looks at the screen size and changes the css on the Css on the navigation bars.
+// This Function looks at the screen size and changes the css on the navigation bars.
 if ($(window).width() >= 769){
     $(window).scroll(function(){
         if ($(this).scrollTop() > 100) {
@@ -30,15 +30,23 @@ $('.navbar-nav li a').on('click', function(){
 // This function gives active 
 $('.navbar-nav li').click(function() {
     $("#home").removeClass('active');
-    $('.navbar-nav li').removeClass('active'); 
+    $('.navbar-nav li').removeClass('active');
     $(this).addClass('active');
+});
+
+// This function gives active 
+$('.bounce').click(function() {
+    $("#home").removeClass('active');
+    $('.navbar-nav li').removeClass('active'); 
+    $(".about").addClass('active');
 });
 
 // This funtion gives the Home icon an active css class if the page has 
 // returned to the top.
 $(document).scroll(function() { 
     if($(window).scrollTop() === 0) {
-    $('.navbar-nav li').removeClass('active'); 
+    $('.navbar-nav li').removeClass('active');
+    $(".about").removeClass('active');
     $("#home").addClass('active');
     }
- });
+});

@@ -159,7 +159,6 @@ html{
     width: 0px;
 }
 
-
 /* ------------------- Media Queries -----------------*/
 
 @media only screen and (min-width: 2560px){
@@ -187,7 +186,7 @@ html{
     }
     
 }
-@media (min-width: 800px) and (max-width: 850px) {
+@media (min-width: 800px) and (max-width: 982px) {
     .navbar:not(.top-nav-collapse) {
         background: #1C2331!important;
     }
