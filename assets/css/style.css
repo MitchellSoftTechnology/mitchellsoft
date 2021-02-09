@@ -80,7 +80,6 @@ html{
     -moz-animation:bounce 1s infinite;
     -o-animation:bounce 1s infinite;
     animation:bounce 1s infinite;
-  
   }
   
   @-webkit-keyframes bounce {
@@ -225,17 +224,14 @@ html{
 
 @media only screen and (min-width: 2560px){
 
-   
 }
 
 @media only screen and (max-width: 2556px){
 
-   
 }
 
 @media only screen and (max-width: 1440px){
 
-  
 }
 
 @media only screen and (max-width: 1024px){
@@ -248,9 +244,9 @@ html{
     }
     .consult-name-image{
         padding-top: 50px;
-    }
-    
+    }    
 }
+
 @media (min-width: 800px) and (max-width: 982px) {
     .navbar:not(.top-nav-collapse) {
         background: #1C2331!important;
@@ -267,7 +263,6 @@ html{
     .navbar{
         background-color:#1C2331;
     }
-
     #company-name{
         font-size: 4rem;
         padding-top: 20%;
@@ -329,8 +324,6 @@ html{
     #company-tec{
         font-size: 1.5rem;
     }
-  
-    
 }    
 
 
@@ -350,6 +343,5 @@ html{
     .android-logo{
         margin-top: 4px;
         width: 22%;
-    } 
-    
+    }
 }
