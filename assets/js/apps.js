@@ -1,4 +1,4 @@
-appscollection = [
+appsCollection = [
     // WikiD
     {appimage: '../assets/images/wikid_logo.jpg', appname: 'WikiD', apptext: 'WikiD is a note-taking application. Write the notes in plain text, using "markup" \
     to insert formatting, for example *this would be bold*, then view them with the markup turned into beautifully styled pages.', 
@@ -19,16 +19,26 @@ appscollection = [
     button1_url: 'https://play.google.com/store/apps/details?id=uk.co.mitchellsoft.android.bluetoothpaste&hl=en&gl=US'}];
     
 
+websiteCollection = [{siteImage: '../assets/images/baggy-soap-logo.png' ,
+siteName: 'The Baggy Soap Company',
+siteInfo: 'about baggy soap',
+siteUrl: 'http://www.baggysoap.co.uk/catalogue/'},
+// Benjamin Shepherd
+{siteImage: '../assets/images/baggy-soap-logo.png',
+siteName: 'Benjamin Shepherd', 
+siteInfo: 'A complementary website showcasing the skills & talents of the client.',
+siteUrl: 'http://www.benjaminshepherd.com/'}];
+
 $(document).ready(function(){
 
-    for(let i = 0; i < appscollection.length; i++){
-        let image = appscollection[i].appimage;
-        let names = appscollection[i].appname;
-        let text = appscollection[i].apptext;
-        let but_1_name = appscollection[i].button1_name;
-        let but_2_name = appscollection[i].button2_name;
-        let but_1_url = appscollection[i].button1_url;
-        let but_2_url = appscollection[i].button2_url;
+    for(let i = 0; i < appsCollection.length; i++){
+        let image = appsCollection[i].appimage;
+        let names = appsCollection[i].appname;
+        let text = appsCollection[i].apptext;
+        let but_1_name = appsCollection[i].button1_name;
+        let but_2_name = appsCollection[i].button2_name;
+        let but_1_url = appsCollection[i].button1_url;
+        let but_2_url = appsCollection[i].button2_url;
 
         if (but_1_name){foo = `<a class="card-a" href="${but_1_url}" target="_blank">${but_1_name}</a><br>`}
         else{foo = ''};
@@ -40,5 +50,18 @@ $(document).ready(function(){
         <div class="card-body"><h5 class="card-title">${names}</h5>
         <p class="card-text">${text}</p>${foo}${bar}</div></div></a></div>`;
     };
+
+    for(let i = 0; i < websiteCollection.length; i++){
+        let image = websiteCollection[i].siteImage;
+        let name = websiteCollection[i].siteName;
+        let info = websiteCollection[i].siteInfo;
+        let url = websiteCollection[i].siteUrl;
+
+        document.getElementById('display-websites').innerHTML += `<div class="col-lg-4 col-md-6 mx-auto card-col">
+        <a class="card-a" href="${url}" target="_blank"><div class="card">
+        <img class="card-img-top" id="cardImageSrc" src="${image}" alt="app ${name}">
+        <div class="card-body"><h5 class="card-title">${name}</h5>
+        <p class="card-text">${info}</p></div></div></a></div>`;
+    }
 
 })

@@ -191,12 +191,12 @@ html{
 /* ---------------- Apps ---------------*/
 
 .card{
-    min-height: 480px!important;
+    min-height: 520px!important;
     box-shadow: 5px 5px 10px 0px gray!important;
 }
 
 .card-img-top{
-    padding-top: 5px;
+    margin-top: 10px!important;
     width: 80%!important;
     margin: 0 auto;
     border-radius:10%!important;
@@ -304,11 +304,10 @@ html{
         padding-left: 20px!important;
     }
     .card{
-        min-height: 440px!important;
+        min-height: 465px!important;
         margin-top: 15px;
     }
     .card-img-top{
-        padding-top: 10px;
         width: 60%!important;
     }
 }
@@ -342,7 +341,6 @@ html{
         display: block;
     }
     .card-img-top{
-        padding-top: 10px;
         width: 50%!important;
     }
     .card{
