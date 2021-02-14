@@ -1,5 +1,7 @@
 /* ---------- Fonts and general setup ---------- */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 @font-face {
     font-family: 'a_atmosphericregular';
     src: url('../fonts/atmospheric-rg4al-webfont.woff2') format('woff2'),
@@ -22,6 +24,7 @@ html {
 body,
 html{
     height:100%;
+    font-family: 'Roboto', sans-serif!important;
 }
 
 .hidden-in-desktop{
@@ -188,10 +191,10 @@ html{
     color: rgba(0,0,0,.2);
 }
 
-/* ---------------- Apps ---------------*/
+/* ------------------ Apps -------------------*/
 
 .card{
-    min-height: 520px!important;
+    min-height: 530px!important;
     box-shadow: 5px 5px 10px 0px gray!important;
 }
 
@@ -200,6 +203,32 @@ html{
     width: 80%!important;
     margin: 0 auto;
     border-radius:10%!important;
+}
+
+/* ----------------- Websites -----------------*/
+
+.card-websites{
+    min-height: 400px!important;
+}
+
+.card-websites:hover{
+    border: 1px solid gray;
+    box-shadow: 0px 0px 0px 0px!important;
+}
+
+a:hover{
+    text-decoration: none!important;
+}
+
+.card-title,
+.card-text{
+    color: #000;
+}
+
+.website-subheading{
+    text-align: center;
+    text-transform: capitalize;
+    display: none;
 }
 
 /* -------------- Consent Cookie --------------*/
@@ -310,6 +339,15 @@ html{
     .card-img-top{
         width: 60%!important;
     }
+    .website-subheading{
+        display: block;
+        margin-top: -15px;
+        margin-bottom: 10px;
+    }
+    .card-websites{
+        min-height: 330px!important;
+    }
+  
 }
 
 @media only screen and (max-width: 425px){
