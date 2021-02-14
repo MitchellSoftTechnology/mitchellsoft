@@ -18,7 +18,7 @@ appscollection = [
     button1_name: 'View in Google Play store', 
     button1_url: 'https://play.google.com/store/apps/details?id=uk.co.mitchellsoft.android.bluetoothpaste&hl=en&gl=US'}];
     
-console.log(appscollection)
+
 $(document).ready(function(){
 
     for(let i = 0; i < appscollection.length; i++){
@@ -32,11 +32,11 @@ $(document).ready(function(){
 
         if (but_1_name){foo = `<a class="card-a" href="${but_1_url}" target="_blank">${but_1_name}</a><br>`}
         else{foo = ''};
-        if (but_2_name){bar = `<a class="card-a" href="${but_2_url}" target="_blank">${but_2_name}</a>`}
+        if (but_2_name){bar = `<hr><a class="card-a" href="${but_2_url}" target="_blank">${but_2_name}</a>`}
         else{bar = ''};
         
         document.getElementById('display-apps').innerHTML += `<div class="col-lg-4 col-md-6 mx-auto card-col"><div class="card">
-        <img class="card-img-top" id="cardImageSrc" src="${image}" alt="repo image">
+        <img class="card-img-top" id="cardImageSrc" src="${image}" alt="app ${names}">
         <div class="card-body"><h5 class="card-title">${names}</h5>
         <p class="card-text">${text}</p>${foo}${bar}</div></div></a></div>`;
     };

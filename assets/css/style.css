@@ -148,7 +148,7 @@ html{
     margin-bottom: 30px;
 }
 
-/* -------------- Consuntants --------------*/
+/* -------------- Consultants --------------*/
 
 .linkedin-icons{
     font-size: 2rem;
@@ -179,12 +179,27 @@ html{
 }
 
 .consult-name-image{
-    padding-top: 20px;
+    padding-top: 50px!important;
+    padding-left: 50px!important;
 }
 
 .consult-hover:hover{
     text-decoration: none;
     color: rgba(0,0,0,.2);
+}
+
+/* ---------------- Apps ---------------*/
+
+.card{
+    min-height: 480px!important;
+    box-shadow: 5px 5px 10px 0px gray!important;
+}
+
+.card-img-top{
+    padding-top: 5px;
+    width: 80%!important;
+    margin: 0 auto;
+    border-radius:10%!important;
 }
 
 /* -------------- Consent Cookie --------------*/
@@ -277,15 +292,24 @@ html{
     .juke-logo{
         width: 6%;
     }
-    .consult-name-image{
-        padding-top: 90px;
-    }
     .consult-image{
         width: 40%;
     }
     .consultant-text{
        text-align: center;
        width: 100%;
+    }
+    .consult-name-image{
+        padding-top: 20px!important;
+        padding-left: 20px!important;
+    }
+    .card{
+        min-height: 440px!important;
+        margin-top: 15px;
+    }
+    .card-img-top{
+        padding-top: 10px;
+        width: 60%!important;
     }
 }
 
@@ -308,11 +332,26 @@ html{
     .consultant-row{
     box-shadow: 0px 0px 0px 0px;
     }
+    .consult-image{
+        width: 50%;
+    }
     .consult-name-image{
-        padding-top: 10px;
+        padding-top: 10px!important;
     }
     .hidden-in-desktop{
         display: block;
+    }
+    .card-img-top{
+        padding-top: 10px;
+        width: 50%!important;
+    }
+    .card{
+        width: 80%;
+        margin-left: 40px;
+        min-height: 250px!important;
+    }
+    .card-body{
+        text-align: center;
     }
 }    
    
@@ -343,5 +382,17 @@ html{
     .android-logo{
         margin-top: 4px;
         width: 22%;
+    }
+    .consult-image{
+        width: 60%;
+    }
+    .consultant-text{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .card{
+        width: 90%;
+        margin-left: 15px;
+        min-height: 250px!important;
     }
 }
