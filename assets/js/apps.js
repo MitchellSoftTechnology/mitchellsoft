@@ -1,18 +1,18 @@
 appsCollection = [
     // WikiD
-    {appimage: '../assets/images/wikid_logo.jpg', appname: 'WikiD', apptext: 'WikiD is a note-taking application. Write the notes in plain text, using "markup" \
+    {appimage: 'assets/images/wikid_logo.jpg', appname: 'WikiD', apptext: 'WikiD is a note-taking application. Write the notes in plain text, using "markup" \
     to insert formatting, for example *this would be bold*, then view them with the markup turned into beautifully styled pages.', 
     button1_name: 'View in Google Play store', 
     button1_url: 'https://play.google.com/store/apps/details?id=uk.org.alexmitchell.wikid.android&hl=en&gl=US', 
     button2_name: 'Download for Desktop (Windows, Linux, Mac)', 
     button2_url: 'http://www.mitchellsoft.co.uk/wikid/'},
     // MPH
-    {appimage: '../assets/images/mph_logo.jpg', appname: 'MPH', apptext: 'MPH is a proprietary app, developed and used for a popular pancake house .\
+    {appimage: 'assets/images/mph_logo.jpg', appname: 'MPH', apptext: 'MPH is a proprietary app, developed and used for a popular pancake house .\
     It enables customers to customise and order breakfast items through an app rather than with waiting staff.', 
     button1_name: 'View in Google Play store', 
     button1_url: 'https://play.google.com/store/apps/details?id=uk.co.mitchellsoft.mph&hl=en&gl=US'},
     // Blue Toothpaste
-    {appimage: '../assets/images/blue_toothpaste_logo.jpg', appname: 'Blue Toothpaste', 
+    {appimage: 'assets/images/blue_toothpaste_logo.jpg', appname: 'Blue Toothpaste', 
     apptext: 'Have you ever wanted to quickly, easily share content from one Bluetooth-enabled device to another, \
     for example a web page address from your phone to your friend\'s tablet? With Blue Toothpaste, that\'s exactly what you can do.',
     button1_name: 'View in Google Play store', 
@@ -22,13 +22,13 @@ appsCollection = [
 
 websiteCollection = [
     // The Baggy Soap Company
-    {siteImage: '../assets/images/baggylogo.png' ,
+    {siteImage: 'assets/images/baggylogo.png' ,
     siteName: 'The Baggy Soap Company',
     siteInfo: 'The baggie soap company is an e-Commerce website, selling high quality cosmetic products.',
     siteUrlName: 'www.baggysoap.co.uk',
     siteUrl: 'http://www.baggysoap.co.uk/catalogue/'},
     // Benjamin Shepherd
-    {siteImage: '../assets/images/benshep.jpg',
+    {siteImage: 'assets/images/benshep.jpg',
     siteName: 'Benjamin Shepherd', 
     siteInfo: 'A complementary website showcasing the skill & talent of Benjamin Shepherd.',
     siteUrlName: 'www.benjaminshepherd.com',
