@@ -19,7 +19,7 @@ const consentPropertyName = 'Mitchell_soft_gdpr_consent';
 const shouldShowPopup = () => !cookieStorage.getItem(consentPropertyName);
 const saveToStorage = () => cookieStorage.setItem(consentPropertyName, true);
   
-window.onload = () =>{
+$(document).ready(function(){
       const consentPopup = document.getElementById('consent-popup');
       const acceptBtn = document.getElementById('accept');
   
@@ -36,4 +36,4 @@ window.onload = () =>{
              consentPopup.classList.remove('hidden'); 
           }, 500);
       }
-  };
+});
