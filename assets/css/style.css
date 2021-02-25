@@ -35,6 +35,10 @@ html{
     background-color:rgba(0,0,0,.2);
 }
 
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
 #company-name{
     display:none;
     font-family: 'a_atmosphericregular';
@@ -45,7 +49,7 @@ html{
     right: 0;
     text-align: center;
     padding-top: 10%;
-    font-size: 5rem;
+    font-size: 5.5rem;
     color: #fff;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
@@ -114,6 +118,15 @@ html{
 
 .page-footer,.top-nav-collapse{
     background-color:#1C2331;
+}
+
+.copyright-footer{
+    color: #fff;
+    text-align: center;
+}
+
+.social-icon{
+    padding: 2px;
 }
 
 /* --------------- Page Images --------------- */
@@ -205,10 +218,14 @@ html{
     border-radius:10%!important;
 }
 
+.card-title{
+    font-size: 1.2rem!important;
+}
 /* ----------------- Websites -----------------*/
 
 .card-websites{
-    min-height: 400px!important;
+    min-height: 420px!important;
+    margin-top: 20px;
 }
 
 .card-websites:hover{
@@ -275,16 +292,20 @@ a:hover{
 }
 
 @media only screen and (max-width: 1440px){
-
-}
-
-@media only screen and (max-width: 1024px){
     #company-name{
         font-size: 4.5rem;
     }
     #company-tec{
-        font-size: 3rem;
-        padding-top: 22%;
+        font-size: 3.5rem;
+        padding-top: 17%;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    
+    #company-tec{
+        font-size: 3.5rem;
+        padding-top: 18%;
     }
     .consult-name-image{
         padding-top: 50px;
@@ -312,7 +333,7 @@ a:hover{
         padding-top: 20%;
     }
     #company-tec{
-        font-size: 2rem;
+        font-size: 3rem;
         padding-top: 30%;
     }
     .navbar{
@@ -353,6 +374,12 @@ a:hover{
 @media only screen and (max-width: 425px){
     #company-name{
         font-size: 2.3rem;
+    }
+    #company-name{
+        padding-top: 40%;
+    }
+    #company-tec{
+        padding-top: 50%;
     }
     #company-tec{
         font-size: 1.8rem;
@@ -430,5 +457,8 @@ a:hover{
         width: 90%;
         margin-left: 15px;
         min-height: 250px!important;
+    }
+    .copyright-footer{
+       font-size: 0.9rem;
     }
 }

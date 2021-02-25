@@ -32,7 +32,8 @@ websiteCollection = [
     siteName: 'Benjamin Shepherd', 
     siteInfo: 'A complementary website showcasing the skill & talent of Benjamin Shepherd.',
     siteUrlName: 'www.benjaminshepherd.com',
-    siteUrl: 'http://www.benjaminshepherd.com/'}
+    siteUrl: 'http://www.benjaminshepherd.com/'},
+
 ];
 
 $(document).ready(function(){

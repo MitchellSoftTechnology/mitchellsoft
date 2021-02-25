@@ -19,6 +19,13 @@
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"
         integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 
+    <!-- EmailJs intergration this must stay in the header-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_1nquoO6SfyzGNziWhHIs4");
+        })();
+    </script>
 
     <title>MitchellSoft</title>
 </head>
@@ -41,7 +48,7 @@
 
             <!-- Links -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav">
                     <li class="nav-item"> <a class="nav-link" id="home" href="#">Home <span
                                 class="sr-only">(current)</span></a></li>
                     <li class="nav-item"><a class="nav-link about" href="#about"
@@ -54,13 +61,13 @@
                         onclick="scrolltoview('apps')">Apps</a>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="#websites"
-                        onclick="scrolltoview('websites')">wedsites</a>
+                        onclick="scrolltoview('websites')">websites</a>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="#contact"
                             onclick="scrolltoview('contact')">Contact</a>
                     </li>
                 </ul>
-                <ul class="navbar-nav nav-flex-icons">
+                <!-- <ul class="navbar-nav nav-flex-icons">
                     <li class="nav-item">
                         <a href="#" class="nav-link" target="_blank"><i class="fab fa-facebook-f"></i></a>
                     </li>
@@ -72,7 +79,7 @@
                             target="_blank">
                             <i class="fab fa-github mr-2"></i>MST GitHub</a>
                     </li>
-                </ul>
+                </ul> -->
             </div>
         </div>
     </nav>
@@ -205,22 +212,22 @@
                 <hr class="my-5" id="websites">
                 <br>
                     <h3 class="text-center mb-5"><em>Websites</em></h3>
-                    <div class="website-subheading">To visit site, select the image</div>
+                    <div class="website-subheading">Select the image to Visit site</div>
                     <div class="row" id="display-websites"></div>
             </section>
             <!--Section: Main features & Quick Start-->
 
             <hr class="my-5" id="contact">
             <br class="breakline-hide-in-mobile">
-            <!--Section: Not enough-->
+            <!--Section: Contact form-->
             <section>
                 <h2 class="my-5 h3 text-center">Contact Us!</h2>
 
                 <div class="row formRow">
                     <div class="col-sm-2"></div>
                     <div class="col-sm-8 formBox">
-                        <span id="overlayBox"></span>
                         <div class="center-form">
+                            <span id="overlayBox"></span>
                             <form id="contact-form">
                                 <input type="hidden" name="email_number">
                                 <div>
@@ -236,12 +243,12 @@
                                 </div>
                                 <div>
                                     <i class="icon fas fa-pen"></i><label for="message"> Message</label>
-                                    <textarea rows="1" name="message" maxlength="800" id="projectsummery"
+                                    <textarea rows="2" name="message_html" maxlength="800" id="projectsummery"
                                         class="form-control" required></textarea>
                                 </div>
                                 <div class="accepttick">
                                     <input type="checkbox" id="terms" name="terms" value="terms" required>
-                                    <span class="terms" for="terms">Accept our <a class="signupbutton" href="">
+                                    <span class="tandc" for="terms">Accept our <a class="tandc" href="">
                                             Terms & Conditions</a></span>
                                 </div>
                                 <div class="form-row text-center">
@@ -253,32 +260,40 @@
                             </form>
                         </div>
                     </div>
+
+
                     <div class="col-sm-2"></div>
                 </div>
             </section>
-            <!--Section: More-->
-
         </div>
     </main>
     <!--Main layout-->
 
     <!--Footer-->
-    <footer class="page-footer text-center font-small mt-4 wow fadeIn">
+    <footer class="page-footer text-center mt-4">
+        <div class="conatiner">
         <hr class="my-4">
         <!-- Social icons -->
-        <div class="pb-4">
-            <a href="https://www.facebook.com/" target="_blank">
-                <i class="fab fa-facebook-f mr-3"></i>
+        <div>
+            <a class="social-icon" href="https://www.facebook.com/" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a class="social-icon" href="https://www.linkedin.com/company/mitchellsoft-technology-ltd/about/" target="_blank">
+                <i class="fab fa-linkedin"></i>
             </a>
         </div>
         <!-- Social icons -->
 
         <!--Copyright-->
-        <div class="copyright-footer">Copyright-&copy;
-            <script>document.write(new Date().getFullYear()); </script> Mitchell Soft Technology Ltd <a
-                class="footer-tc" href="#">-Terms & Consitions-Privacy Policy</a>
-        </div>
+            <div class="copyright-footer">Copyright-&copy;
+                <script>document.write(new Date().getFullYear());</script> 
+                Mitchell Soft Technology Ltd.
+                <br>
+                <a class="footer-tc" href="#">T & C -Privacy Policy</a>
+                <hr class="my-4">
+            </div>
         <!--/.Copyright-->
+        </div>
     </footer>
     <!--/.Footer-->
 
@@ -290,6 +305,7 @@
 <script src="assets/js/scrolltotop.js"></script>
 <script src="assets/js/cookie_consent.js"></script>
 <script src="assets/js/apps.js"></script>
+<script src="assets/js/email.js"></script>
 <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"
     integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U"
     crossorigin="anonymous"></script>

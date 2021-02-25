@@ -89,3 +89,8 @@ permission. Instead, perhaps we could include these freely distributable logos t
 ## Images
 
 Landing Image Photo by [James Padolsey]("https://unsplash.com/@padolsey?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText")
+
+
+## Content and code
+
+Code for the preloader was taken from here - https://bootsnipp.com/snippets/GaeVl

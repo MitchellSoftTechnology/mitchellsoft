@@ -1,5 +1,4 @@
 
-
 .signupbutton:hover{
     text-decoration: none!important;
     
@@ -32,11 +31,6 @@ form{
     padding-right: 20%;
 }
 
-/* .sendbutton{
-    margin-top: 5px;
-    margin-bottom: 10px;
-} */
-
 .form-control{
     margin-bottom: 4px;
 }
@@ -45,20 +39,7 @@ form{
     margin-bottom: 4px;
 }
 
-/* .buttonsclick{
-    border: 1px solid white;
-    margin: 3px;
-}
-
-.buttonsclick:hover{
-    border: 1px solid white;
-} */
-
-/* .btn:focus {
-    outline: none;
-    box-shadow: none!important;
-} */
-/*-------------- add event spinner-------------- */
+/*-------------- add event spinner -------------- */
 .formBox{
     max-width: 80%;
     box-shadow: 5px 5px 10px 0px gray;
@@ -69,36 +50,24 @@ form{
 }
 
 .messageSent{
+    margin-top: 10px;
     padding-bottom: 5px;
     font-size: 1.2rem;
-    font-weight: 700;
 }
-
+/* 
 .formHomeButRow{
     display: none;
-}
-
-.spinner {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    margin:0px auto;
-    width: 250px;
-    height: 250px;
-    z-index: 20; 
-}
+} */
 
 .loadingText {
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 60%;
     transform: translate(-50%,-50%);
     margin:0px auto;
     z-index: 40;
-    font-family: 'Unkempt', cursive;
-    color: #F79767;
-    font-size: 2.8rem;
+    color: #fff;
+    font-size: 2rem;
     font-weight: 900;
     width: 80%;
     text-align: center;
@@ -116,11 +85,101 @@ form{
     background-color: rgba(0,0,0,0.5); /* Black background with opacity */
     z-index: 2;
     cursor: pointer; 
-    border-radius: 15px;
   }
 
-  .hopsSpinner{
-      width: 100%;
-      height: 100% ;
-      position: absolute;
-  } 
+  /********************  Preloader  *******************/
+.preloader1,
+.preloader1 
+.loader{
+    display:flex;
+    align-content:center
+}
+
+.preloader1{
+    height:100%;
+    width:100%;
+    padding:20px 0;
+    flex-flow:column wrap;
+    justify-content:center;
+    align-items:center;
+    perspective:700
+}
+
+.preloader1 .loader{
+    text-align:center;
+    margin:5px;
+    border-radius:50%;
+    border:4px solid #fff;
+    flex-flow:column wrap;
+    justify-content:center;
+    align-items:center;
+    transform-style:preserve-3d;
+    position:relative
+}
+
+.preloader1 .preloader1 .loader-inner-1{
+    animation:change_first_circle 2s ease-in-out infinite
+}
+
+.preloader1 .loader-inner-2{
+    animation:change_second_circle 2s ease-in-out infinite
+}
+
+.preloader1 .loader-inner-3{
+    width:100px;height:100px;
+    animation:change_last_circle 3s linear infinite
+}
+
+@keyframes change_first_circle{
+    50%{transform:rotateX(360deg) scale(.8)}
+}
+
+@keyframes change_second_circle{
+    50%{transform:rotateY(360deg) scale(.8)}
+}
+
+@keyframes change_last_circle{
+    50%{transform:rotateX(360deg) scale(.8)}
+}
+
+/* ------------------- Media Queries base.html -----------------*/
+    
+
+@media only screen and (max-width: 474px){
+    #contact-form{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .formBox{
+        margin-bottom: 10%;
+    }
+}
+
+
+@media only screen and (max-width: 425px){
+  
+}   
+
+@media only screen and (max-width: 375px){
+    .tandc{
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    #contact-form{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .tandc{
+        font-size: 0.8rem;
+    }
+    .messageSent{
+        font-size: 0.9rem;
+        padding-bottom: 10px;
+    }
+    .loadingText {
+        top: 70%;
+    }
+}
+

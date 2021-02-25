@@ -2,6 +2,8 @@ $(document).ready(function(){
     // These fade in the company logos
     $("#company-name").delay(800).fadeIn(2000);
     $("#company-tec").delay(1000).fadeIn(2000);
+    // $("#company-name").animate({left: $("#company-name").parent().width() / 2 - $("#company-name").width() / 2}, 1000, 'linear');
+    // $("#company-tec").animate({right: $("#company-tec").parent().width() / 2 - $("#company-tec").width() / 2}, 1000, 'linear');
 })
 
 // This function Scrolls to seleted items down screen in smooth motion.
