@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/scrolltotop.css">
     <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/cards.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet"
@@ -18,6 +19,13 @@
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"
         integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 
+    <!-- EmailJs intergration this must stay in the header-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_1nquoO6SfyzGNziWhHIs4");
+        })();
+    </script>
 
     <title>MitchellSoft</title>
 </head>
@@ -40,17 +48,26 @@
 
             <!-- Links -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav">
                     <li class="nav-item"> <a class="nav-link" id="home" href="#">Home <span
                                 class="sr-only">(current)</span></a></li>
                     <li class="nav-item"><a class="nav-link about" href="#about"
                             onclick="scrolltoview('about')">About</a>
                     </li>
+                    <li class="nav-item"><a class="nav-link" href="#consultancy"
+                        onclick="scrolltoview('consultancy')">IT Consultancy</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#apps"
+                        onclick="scrolltoview('apps')">Apps</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#websites"
+                        onclick="scrolltoview('websites')">websites</a>
+                    </li>
                     <li class="nav-item"><a class="nav-link" href="#contact"
                             onclick="scrolltoview('contact')">Contact</a>
                     </li>
                 </ul>
-                <ul class="navbar-nav nav-flex-icons">
+                <!-- <ul class="navbar-nav nav-flex-icons">
                     <li class="nav-item">
                         <a href="#" class="nav-link" target="_blank"><i class="fab fa-facebook-f"></i></a>
                     </li>
@@ -62,7 +79,7 @@
                             target="_blank">
                             <i class="fab fa-github mr-2"></i>MST GitHub</a>
                     </li>
-                </ul>
+                </ul> -->
             </div>
         </div>
     </nav>
@@ -94,7 +111,7 @@
             <br>
             <!--Section: About section -->
             <section>
-                <h3 class="h3 text-center mb-5">About MitchellSoft Technology</h3>
+                <h3 class="text-center mb-5">About MitchellSoft Technology</h3>
                 <!--Grid row-->
                 <div class="row">
                     <div class="col-md-12 text-center">
@@ -120,28 +137,97 @@
                         </p>
                     </div>
                 </div>
+                
                 <div class="row">
                     <div class="col-md-12 image-row">
-
-                        <img class="python-logo" src="/assets/images/python.png" alt="python">
-                        <img class="juke-logo" src="/assets/images/duke_java_mascot.png" alt="java">
-
+                        <img class="juke-logo" src="./assets/images/duke_java_mascot.png" alt="java">
+                        <img class="python-logo" src="./assets/images/python.png" alt="python">
+                        <img class="android-logo" src="./assets/images/android_robot.png" alt="andriod">
                     </div>
                 </div>
+            </section>
+
+            <!------------------------ Consultancy section ---------------------------->
+            <section>
+                <hr class="my-5" id="consultancy">
+                <br>
+                <h3 class="text-center mb-5"><em>Our Consultants</em></h3>
+                <div class="row consultant-row">
+                    <div class="col-lg-3 consult-name-image">
+                         <a class="consult-hover" target="_blank" href="https://www.linkedin.com/in/mitchk1609/">
+                        <img class="consult-image" src="./assets/images/kate_mitchell.jpg" alt="">
+                        <div class="consult-name consult-hover">Kate Mitchell<i class="fab fa-linkedin linkedin-icons"></i></div>
+                       </a>
+                    </div>
+                    <div class="col-lg-9">
+                        <p class="consultant-text">A senior software engineer, with over 13 years commercial experience, Kate kickstarted her career with a Computer Science
+                            Degree at the University of Bristol. From there, she was accepted on IBM's "Extreme Blue" internship scheme and took a
+                            graduate placement at their top UK development lab. She began developing in lower level languages, developing IBM's top 
+                            z/OS transaction server, CICS, as part of the Web Services team. Kate worked with languages such as Assembler and C, as 
+                            well as Java and C++, before discovering Python and falling in love with its features, community and incredible 
+                            versatility.
+                            <br></br>
+                            Kate has now specialised in Python for over 10 years, and has worked large companies such as the media giant Sky, as 
+                            well as medium sized companies and startups, in a range of sectors. She excels at back end development, such as 
+                            integrations, large scale computations, algorithms and API development, but also has experience of full stack 
+                            development using frameworks such as Django and can deliver front end changes when required. Her passion for clean, 
+                            quality code is evident in all that she does, and her experience in test driven development is an asset to any project.
+                        </p>
+                    </div>
+                </div>
+                <hr class="hidden-in-desktop">
+                
+                <div class="row consultant-row">
+                    <div class="col-lg-3 consult-name-image">
+                        <a class="consult-hover" target="_blank" href="https://www.linkedin.com/in/alxmitchell/">
+                        <img class="consult-image" src="./assets/images/alex_mitchell.jpg" alt="">
+                        <div class="consult-name consult-hover">Alex Mitchell<i class="fab fa-linkedin linkedin-icons"></i></div>
+                        </a>
+                    </div>
+                        <div class="col-lg-9">
+                            <p class="consultant-text">A senior software engineer, with over 13 years commercial experience, Kate kickstarted her career with a Computer Science
+                                Degree at the University of Bristol. From there, she was accepted on IBM's "Extreme Blue" internship scheme and took a
+                                graduate placement at their top UK development lab. She began developing in lower level languages, developing IBM's top 
+                                z/OS transaction server, CICS, as part of the Web Services team. Kate worked with languages such as Assembler and C, as 
+                                well as Java and C++, before discovering Python and falling in love with its features, community and incredible 
+                                versatility.
+                                <br><br>
+                                Kate has now specialised in Python for over 10 years, and has worked large companies such as the media giant Sky, as 
+                                well as medium sized companies and startups, in a range of sectors. She excels at back end development, such as 
+                                integrations, large scale computations, algorithms and API development, but also has experience of full stack 
+                                development using frameworks such as Django and can deliver front end changes when required. Her passion for clean, 
+                                quality code is evident in all that she does, and her experience in test driven development is an asset to any project.</p>
+                        </div>
+                </div> 
+            </section>
+             <!------------------------ Apps section ---------------------------->
+             <section>
+                <hr class="my-5" id="apps">
+                <br>
+                    <h3 class="text-center mb-5"><em>Applications</em></h3>
+                    <div class="row" id="display-apps"></div>
+            </section>
+               <!------------------------ Websites section ---------------------------->
+               <section>
+                <hr class="my-5" id="websites">
+                <br>
+                    <h3 class="text-center mb-5"><em>Websites</em></h3>
+                    <div class="website-subheading">Select the image to Visit site</div>
+                    <div class="row" id="display-websites"></div>
             </section>
             <!--Section: Main features & Quick Start-->
 
             <hr class="my-5" id="contact">
-            <br class="hide-in-mobile">
-            <!--Section: Not enough-->
+            <br class="breakline-hide-in-mobile">
+            <!--Section: Contact form-->
             <section>
                 <h2 class="my-5 h3 text-center">Contact Us!</h2>
 
                 <div class="row formRow">
                     <div class="col-sm-2"></div>
                     <div class="col-sm-8 formBox">
-                        <span id="overlayBox"></span>
                         <div class="center-form">
+                            <span id="overlayBox"></span>
                             <form id="contact-form">
                                 <input type="hidden" name="email_number">
                                 <div>
@@ -157,12 +243,12 @@
                                 </div>
                                 <div>
                                     <i class="icon fas fa-pen"></i><label for="message"> Message</label>
-                                    <textarea rows="1" name="message" maxlength="800" id="projectsummery"
+                                    <textarea rows="2" name="message_html" maxlength="800" id="projectsummery"
                                         class="form-control" required></textarea>
                                 </div>
                                 <div class="accepttick">
                                     <input type="checkbox" id="terms" name="terms" value="terms" required>
-                                    <span class="terms" for="terms">Accept our <a class="signupbutton" href="">
+                                    <span class="tandc" for="terms">Accept our <a class="tandc" href="">
                                             Terms & Conditions</a></span>
                                 </div>
                                 <div class="form-row text-center">
@@ -174,32 +260,40 @@
                             </form>
                         </div>
                     </div>
+
+
                     <div class="col-sm-2"></div>
                 </div>
             </section>
-            <!--Section: More-->
-
         </div>
     </main>
     <!--Main layout-->
 
     <!--Footer-->
-    <footer class="page-footer text-center font-small mt-4 wow fadeIn">
+    <footer class="page-footer text-center mt-4">
+        <div class="conatiner">
         <hr class="my-4">
         <!-- Social icons -->
-        <div class="pb-4">
-            <a href="https://www.facebook.com/" target="_blank">
-                <i class="fab fa-facebook-f mr-3"></i>
+        <div>
+            <a class="social-icon" href="https://www.facebook.com/" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a class="social-icon" href="https://www.linkedin.com/company/mitchellsoft-technology-ltd/about/" target="_blank">
+                <i class="fab fa-linkedin"></i>
             </a>
         </div>
         <!-- Social icons -->
 
         <!--Copyright-->
-        <div class="copyright-footer">Copyright-&copy;
-            <script>document.write(new Date().getFullYear()); </script> Mitchell Soft Technology Ltd <a
-                class="footer-tc" href="#">-Terms & Consitions-Privacy Policy</a>
-        </div>
+            <div class="copyright-footer">Copyright-&copy;
+                <script>document.write(new Date().getFullYear());</script> 
+                Mitchell Soft Technology Ltd.
+                <br>
+                <a class="footer-tc" href="#">T & C -Privacy Policy</a>
+                <hr class="my-4">
+            </div>
         <!--/.Copyright-->
+        </div>
     </footer>
     <!--/.Footer-->
 
@@ -210,6 +304,8 @@
 <script src="assets/js/index.js"></script>
 <script src="assets/js/scrolltotop.js"></script>
 <script src="assets/js/cookie_consent.js"></script>
+<script src="assets/js/apps.js"></script>
+<script src="assets/js/email.js"></script>
 <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"
     integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U"
     crossorigin="anonymous"></script>
