@@ -1,0 +1,20 @@
+.editorDemoTable {
+    background-color: #FFF8C9;
+    border-spacing: 0;
+  }
+  .editorDemoTable td{
+    border: 1px solid #777;
+    margin: 0 !important;
+    padding: 2px 3px;
+  }
+  .editorDemoTable thead {
+    background-color: #2E6C80;
+    color: #FFF;
+  }
+  .editorDemoTable td:nth-child(3){
+      text-align: center;
+  }
+  .editorDemoTable thead td {
+      font-weight: bold;
+      font-size: 13px;
+  }

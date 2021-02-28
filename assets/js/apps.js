@@ -4,8 +4,10 @@ appsCollection = [
     to insert formatting, for example *this would be bold*, then view them with the markup turned into beautifully styled pages.', 
     button1_name: 'View in Google Play store', 
     button1_url: 'https://play.google.com/store/apps/details?id=uk.org.alexmitchell.wikid.android&hl=en&gl=US', 
-    button2_name: 'Download for Desktop (Windows, Linux, Mac)', 
-    button2_url: 'http://www.mitchellsoft.co.uk/wikid/'},
+    // button2_name: 'Download for Desktop (Windows, Linux, Mac)', 
+    // button2_url: 'http://www.mitchellsoft.co.uk/wikid/',
+    modal_button_name: 'Download for Desktop (Windows, Linux, Mac)',
+    button_popup: "popupModal('wikiapp')"},
     // MPH
     {appimage: 'assets/images/mph_logo.jpg', appname: 'MPH', apptext: 'MPH is a proprietary app, developed and used for a popular pancake house .\
     It enables customers to customise and order breakfast items through an app rather than with waiting staff.', 
@@ -46,16 +48,21 @@ $(document).ready(function(){
         let but_2_name = appsCollection[i].button2_name;
         let but_1_url = appsCollection[i].button1_url;
         let but_2_url = appsCollection[i].button2_url;
+        let but_modal_name = appsCollection[i].modal_button_name;
+        let but_modal_popup = appsCollection[i].button_popup;
 
-        if (but_1_name){foo = `<a class="card-a" href="${but_1_url}" target="_blank">${but_1_name}</a><br>`}
-        else{foo = ''};
-        if (but_2_name){bar = `<hr><a class="card-a" href="${but_2_url}" target="_blank">${but_2_name}</a>`}
-        else{bar = ''};
+        if (but_1_name){bt1 = `<a class="card-a" href="${but_1_url}" target="_blank">${but_1_name}</a><br>`}
+        else{bt1 = ''};
+        if (but_2_name){bt2 = `<hr><a class="card-a" href="${but_2_url}" target="_blank">${but_2_name}</a>`}
+        else{bt2 = ''};
+        if(but_modal_name){bt3 = `<hr><a class="card-a" onclick="${but_modal_popup}" type="button" 
+                                    data-toggle="modal" data-target="#popupModal" ><span class="tcColor">${but_modal_name}</span></a>`}
+        else{bt3 = ''};
         
         document.getElementById('display-apps').innerHTML += `<div class="col-lg-4 col-md-6 mx-auto card-col"><div class="card">
         <img class="card-img-top" id="cardImageSrc" src="${image}" alt="app ${names}">
         <div class="card-body"><h5 class="card-title">${names}</h5>
-        <p class="card-text">${text}</p>${foo}${bar}</div></div></a></div>`;
+        <p class="card-text">${text}</p>${bt1}${bt2}${bt3}</div></div></a></div>`;
     };
 
     for(let i = 0; i < websiteCollection.length; i++){
