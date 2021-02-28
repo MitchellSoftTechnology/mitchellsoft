@@ -1,11 +1,19 @@
 
 .signupbutton:hover{
     text-decoration: none!important;
-    
 }
 
 .accepttick{
     padding-left: 5px;
+}
+
+.tcColor{
+    color: #009688;
+}
+
+.tcColor:hover{
+    color: gray;
+    cursor: pointer;
 }
 
 .contactcontainer{
@@ -54,10 +62,6 @@ form{
     padding-bottom: 5px;
     font-size: 1.2rem;
 }
-/* 
-.formHomeButRow{
-    display: none;
-} */
 
 .loadingText {
     position: absolute;

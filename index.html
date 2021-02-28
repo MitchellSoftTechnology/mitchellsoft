@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="assets/css/scrolltotop.css">
     <link rel="stylesheet" href="assets/css/contact.css">
     <link rel="stylesheet" href="assets/css/cards.css">
+    <link rel="stylesheet" href="assets/css/popup.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet"
@@ -127,9 +128,9 @@
                 
                 <div class="row">
                     <div class="col-md-12 image-row">
-                        <img class="juke-logo" src="./assets/images/duke_java_mascot.png" alt="java">
-                        <img class="python-logo" src="./assets/images/python.png" alt="python">
-                        <img class="android-logo" src="./assets/images/android_robot.png" alt="andriod">
+                        <img class="juke-logo" src="assets/images/duke_java_mascot.png" alt="java">
+                        <img class="python-logo" src="assets/images/python.png" alt="python">
+                        <img class="android-logo" src="assets/images/android_robot.png" alt="andriod">
                     </div>
                 </div>
             </section>
@@ -142,7 +143,7 @@
                 <div class="row consultant-row">
                     <div class="col-lg-3 consult-name-image">
                          <a class="consult-hover" target="_blank" href="https://www.linkedin.com/in/mitchk1609/">
-                        <img class="consult-image" src="./assets/images/kate_mitchell.jpg" alt="">
+                        <img class="consult-image" src="assets/images/kate_mitchell.jpg" alt="">
                         <div class="consult-name consult-hover">Kate Mitchell<i class="fab fa-linkedin linkedin-icons"></i></div>
                        </a>
                     </div>
@@ -167,7 +168,7 @@
                 <div class="row consultant-row">
                     <div class="col-lg-3 consult-name-image">
                         <a class="consult-hover" target="_blank" href="https://www.linkedin.com/in/alxmitchell/">
-                        <img class="consult-image" src="./assets/images/alex_mitchell.jpg" alt="">
+                        <img class="consult-image" src="assets/images/alex_mitchell.jpg" alt="">
                         <div class="consult-name consult-hover">Alex Mitchell<i class="fab fa-linkedin linkedin-icons"></i></div>
                         </a>
                     </div>
@@ -235,8 +236,8 @@
                                 </div>
                                 <div class="accepttick">
                                     <input type="checkbox" id="terms" name="terms" value="terms" required>
-                                    <span class="tandc" for="terms">Accept our <a class="tandc" href="">
-                                            Terms & Conditions</a></span>
+                                    <span class="tandc" for="terms">Accept our <a class="tandc" type="button" onclick="popupModal('t&c')" data-toggle="modal" data-target="#popupModal">
+                                            <span class="tcColor">Terms & Conditions</span></a></span>
                                 </div>
                                 <div class="form-row text-center">
                                     <div class="col">
@@ -248,7 +249,25 @@
                         </div>
                     </div>
 
-
+                    <!-- Popup Modal -->
+                    <div class="modal fade" id="popupModal" tabindex="-1" role="dialog" aria-labelledby="mitchellsoftmodelTitle" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="mitchellsoftmodelTitle">Modal title</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div id="modal_body_content"></div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
                     <div class="col-sm-2"></div>
                 </div>
             </section>
@@ -276,7 +295,8 @@
                 <script>document.write(new Date().getFullYear());</script> 
                 Mitchell Soft Technology Ltd.
                 <br>
-                <a class="footer-tc" href="#">T & C -Privacy Policy</a>
+                <a class="footer-tc tandc" type="button" onclick="popupModal('t&c')" data-toggle="modal" data-target="#popupModal">
+                    <span class="tcColor">T & C -Privacy Policy</span></a>
                 <hr class="my-4">
             </div>
         <!--/.Copyright-->
@@ -293,6 +313,7 @@
 <script src="assets/js/cookie_consent.js"></script>
 <script src="assets/js/apps.js"></script>
 <script src="assets/js/email.js"></script>
+<script src="assets/js/popupmodal.js"></script>
 <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"
     integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U"
     crossorigin="anonymous"></script>
