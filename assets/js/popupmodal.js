@@ -156,7 +156,7 @@ function popupModal(direction){
             If you have any questions about these terms, or would like further information, please contact us via
             e-mail at @@email
             <br>
-            Website Developed by <a href="www.Jonwhewaycode.co.uk">Jonwhewaycode.co.uk</a>
+            Website Developed by <a target="_blank" href="http://www.Jonwhewaycode.co.uk">Jonwhewaycode.co.uk</a>
         </p>
 
         <h3>Website Privacy Policy:</h3>
