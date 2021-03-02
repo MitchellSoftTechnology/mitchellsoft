@@ -171,7 +171,7 @@ function popupModal(direction){
             e-mail at <a href="mailto:enquiries@mitchellsoft.co.uk">enquiries@mitchellsoft.co.uk</a>
             <br>
             <br>
-            Website Developed by <a target="_blank" href="http://www.Jonwhewaycode.co.uk">Jonwhewaycode.co.uk</a>
+            
         </p>
 
         <h3>Website Privacy Policy:</h3>
@@ -264,6 +264,8 @@ function popupModal(direction){
             clicking on these links may allow third parties to collect or share data about you; we would encourage
             you to familiarise yourself with the privacy policy of any website you visit.
         </p>
+        <br>
+        Website Developed by <a target="_blank" href="http://www.Jonwhewaycode.co.uk">www.Jonwhewaycode.co.uk</a>
         `
     }
 }
