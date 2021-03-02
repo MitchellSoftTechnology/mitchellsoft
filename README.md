@@ -23,10 +23,10 @@ A website showcasing the consultants, applications and websites by MitchellSoft 
 <br>
 
 ### This Website is the best way to help achieve these goals because:
-* Information about the company: The about section clearly defines who MitchellSoft technology Ltd is and where and when it was founded.
+* Information about the company: The about section clearly defines who MitchellSoft Technology Ltd is and where and when it was founded.
 * Information on the consultants: The It consultancy section clearly defines who the consultants are, their bio information, career history and work ethics.
 * Projects and websites: The apps and website section, show cases a handful of projects and application that MitchellSoft Technology Ltd has created over the years.
-* A way of contacting Mitchellsoft Technology: A clean and simple contact form is included as a way of reaching MitchellSoft technology Ltd.
+* A way of contacting Mitchellsoft Technology: A clean and simple contact form is included as a way of reaching MitchellSoft Technology Ltd.
 
 <br>
 
