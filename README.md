@@ -7,10 +7,10 @@
 #### Click on image for live version
 <br>
 
-# Mitchell Soft Technology Ltd
+# MitchellSoft Technology Ltd
 </div>
 
-A website showcasing the consultants, applications and websites by Mitchell Soft Technology Ltd.  The consultant's believe in test driven, high quality business grade code,  with over 26 years of experience.
+A website showcasing the consultants, applications and websites by MitchellSoft Technology Ltd.  The consultant's believe in test driven, high quality business grade code,  with over 26 years of experience.
 
 <br>
 
@@ -23,9 +23,9 @@ A website showcasing the consultants, applications and websites by Mitchell Soft
 <br>
 
 ### This Website is the best way to help achieve these goals because:
-* Information about the company: The about section clearly defines who Mitchell soft technology Ltd is and where and when it was founded.
+* Information about the company: The about section clearly defines who MitchellSoft technology Ltd is and where and when it was founded.
 * Information on the consultants: The It consultancy section clearly defines who the consultants are, their bio information, career history and work ethics.
-* Projects and websites: The apps and website section, show cases a handful of projects and application that Mitchell Soft Technology Ltd has created over the years.
+* Projects and websites: The apps and website section, show cases a handful of projects and application that MitchellSoft Technology Ltd has created over the years.
 * A way of contacting Mitchell soft Technology: A clean and simple contact form is included as a way of reaching Mitchell Soft technology Ltd.
 
 <br>
