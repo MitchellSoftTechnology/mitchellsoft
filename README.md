@@ -7,10 +7,10 @@
 #### Click on image for live version
 <br>
 
-# Mitchell Soft Technology Ltd
+# MitchellSoft Technology Ltd
 </div>
 
-A website showcasing the consultants, applications and websites by Mitchell Soft Technology Ltd.  The consultant's believe in test driven, high quality business grade code,  with over 26 years of experience.
+A website showcasing the consultants, applications and websites by MitchellSoft Technology Ltd.  The consultant's believe in test driven, high quality business grade code,  with over 26 years of experience.
 
 <br>
 
@@ -18,15 +18,15 @@ A website showcasing the consultants, applications and websites by Mitchell Soft
 * Information about the company.
 * Information on the consultants.
 * Projects and websites.
-* A way of contacting Mitchell Soft Technology.
+* A way of contacting MitchellSoft Technology.
 
 <br>
 
 ### This Website is the best way to help achieve these goals because:
-* Information about the company: The about section clearly defines who Mitchell soft technology Ltd is and where and when it was founded.
+* Information about the company: The about section clearly defines who MitchellSoft technology Ltd is and where and when it was founded.
 * Information on the consultants: The It consultancy section clearly defines who the consultants are, their bio information, career history and work ethics.
-* Projects and websites: The apps and website section, show cases a handful of projects and application that Mitchell Soft Technology Ltd has created over the years.
-* A way of contacting Mitchell soft Technology: A clean and simple contact form is included as a way of reaching Mitchell Soft technology Ltd.
+* Projects and websites: The apps and website section, show cases a handful of projects and application that MitchellSoft Technology Ltd has created over the years.
+* A way of contacting Mitchellsoft Technology: A clean and simple contact form is included as a way of reaching MitchellSoft technology Ltd.
 
 <br>
 
@@ -48,8 +48,8 @@ A website showcasing the consultants, applications and websites by Mitchell Soft
 * A bouncing icon to entice the user to scroll down.
 *  An about section with information about the company with images of technology's used.
 * A consultants section with images of the consultants there career history and work ethic, with links to their respective LinkedIn profiles.
-* An application's section showcasing apps created by Mitchell Soft Technology, with links to google play store and popup modal with downloads for specific apps.
-* A website section displaying sites created and owned by Mitchell Soft Technology.
+* An application's section showcasing apps created by MitchellSoft Technology, with links to google play store and popup modal with downloads for specific apps.
+* A website section displaying sites created and owned by MitchellSoft Technology.
 * Javascript contact form that sends messages stright to the company email.
 * A scroll to top button that appears when any page has been scrolled more than 100 pixels.
 * A pop up banner asking the user to agree to the use of cookies.
@@ -159,7 +159,7 @@ https://www.emailjs.com/
 
 Landing Image Photo by [James Padolsey](https://unsplash.com/photos/tvPvROBv0F4)
 
-Consultants images: Belong to Mitchell Soft Technology Ltd.
+Consultants images: Belong to MitchellSoft Technology Ltd.
 
 
 ## Content and code:
