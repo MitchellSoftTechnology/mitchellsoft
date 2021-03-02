@@ -51,6 +51,7 @@ form{
 .formBox{
     max-width: 80%;
     box-shadow: 5px 5px 10px 0px gray;
+    margin-bottom: 10%;
 }
 
 .formRow{

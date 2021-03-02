@@ -11,17 +11,21 @@
 }
 
 /* ----------- Header and navigation ----------- */
+.company_logo{
+    font-family: 'a_atmosphericregular';
+    font-weight: 100;
+}
 
-html {
+html{
     scroll-behavior: smooth;
+    height: 100%;
 }
 
 .header-div{
     position: relative;
 } 
 
-body,
-html{
+body{
     font-family: 'Roboto', sans-serif!important;
 }
 
@@ -201,6 +205,10 @@ html{
 .consult-hover:hover{
     text-decoration: none;
     color: rgba(0,0,0,.2);
+}
+
+.meet_the_team{
+    font-size: 1.3rem;
 }
 
 /* ------------------ Apps -------------------*/
