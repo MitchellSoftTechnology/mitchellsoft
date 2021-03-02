@@ -60,7 +60,7 @@ A website showcasing the consultants, applications and websites by Mitchell Soft
 ### Navigation: 
 All pages contain the same navigation across the top and a footer to the bottom of the page.  All links on the navigation bar direct the user to the relevant locations. 
 
-The footer contains social media links and copyright information. Easch page also contains a back to top button that appears on the right hand side of the screen when the page is scrolled.
+The footer contains social media links and copyright information. Each page also contains a back to top button that appears on the right hand side of the screen when the page is scrolled.
 
 
 ### Home:
@@ -75,25 +75,25 @@ about heading centre page, with company information below, below that gain image
 
 ### It Consultancy:
 The It Consultancy section has navigation across the top,
-This section contains images of consultants to the left and bio information to the right on desktop and images of consultants centre top and bio information below on mobile each of witch have links to the the respective LinkedIn profiles.
+This section contains images of consultants to the left and bio information to the right on desktop, on mobile images of consultants centre top and bio information below each of witch have links to the the respective LinkedIn profiles.
 
 
 ### Applications:
 The Applications section has navigation across the top,
-cards containing information about the relevant application with an image at the top, information in the middle and with links below on each respective card. 
+cards containing information about the relevant application with an image at the top, information in the middle and with links below that on each respective card. 
 
 Each card is injected into the page via JavaScript giving the website owner a simple way to expand this section without hard coding in the Html.
 
 ### Websites:
 The Websites section has navigation across the top,
-cards containing information about the relevant websites with an image at the top, URL information below that and respective site information at the bottom, each card can be clicked and the user will be take to the respective website or choice in a separate window. 
+cards containing information about the relevant websites with an image at the top, URL information below that, and respective site information at the bottom, each card can be clicked the user will then be take to the respective website of choice in a separate window. 
 
 Each card is injected into the page via JavaScript giving the website owner a simple way to expand this section without hard coding in the Html.
 
 
 ### Contact:
 The Contact section has navigation across the top,
-a form to enter,  name, email address, a short 2 line message, an accept out term and conditions checkbox and centre bottom a submit button. This for then sends the information via Emailjs service straight to the company inbox.
+a form to enter,  name, email address, a short 2 line message, an accept our terms and conditions checkbox and centre bottom a submit button. This then sends the information via Emailjs service straight to the company inbox.
 
 When the form is submitted a loading spinner will appear over the contact form, if the form is sent correctly, a message will appear telling the user the message has sent successfully, if the form fails, an error message will be displayed asking the user to refresh the browser and try again.
 
