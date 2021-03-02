@@ -168,7 +168,7 @@ function popupModal(direction){
             <br>
             <br>
             If you have any questions about these terms, or would like further information, please contact us via
-            e-mail at enquiries@mitchellsoft.co.uk
+            e-mail at <a href="mailto:enquiries@mitchellsoft.co.uk">enquiries@mitchellsoft.co.uk</a>
             <br>
             <br>
             Website Developed by <a target="_blank" href="http://www.Jonwhewaycode.co.uk">Jonwhewaycode.co.uk</a>
@@ -238,7 +238,8 @@ function popupModal(direction){
         <p>Please note that any requests for correction/deletion may be refused due to other requirements
             including, but not limited to, legal or accounting requirements.</p>
         <p>
-            If you wish to exercise any of these rights please e-mail enquiries@mitchellsoft.co.uk For security reasons
+            If you wish to exercise any of these rights please e-mail <a href="mailto:enquiries@mitchellsoft.co.uk">enquiries@mitchellsoft.co.uk</a>
+            For security reasons
             we may require you to provide proof of your identity and/or additional information that will help us
             respond to your request. We will respond to all legitimate requests within four weeks.
             You have the right to make a complaint at any time to the Information Commissioner's Office (ICO), the
