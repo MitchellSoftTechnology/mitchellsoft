@@ -7,7 +7,7 @@ window.onload = function () {
                     </div></div></div></div></div><span class="loadingText">SENDING PLEASE WAIT!</span>`;
       // generate the contact number value
       this.email_number.value = (Math.random() * 100000) | 0;
-      emailjs.sendForm("outloo", "jon_contact", this).then(
+      emailjs.sendForm("service_d76oduc", "template_r8ainab", this).then(
         function (response) {
           // if the response is good
           console.log("SUCCESS!", response.status, response.text);
