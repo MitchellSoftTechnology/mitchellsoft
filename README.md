@@ -101,11 +101,16 @@ When the form is submitted a loading spinner will appear over the contact form, 
 
 ## Styling
 
+
 ### Font:
 * The company Logo used was a_atmosphericregular, I felt the the rigid lines made for a futuristic yet elegant technology font that work well with the company name.
 * Over all the main font used was standard Roboto. The standard font felt at home and was very legible.
 
 ### Color scheme:
+
+<div align="center">
+    <img src="assets/images/color.jpg" alt="color card" aria-label="font used" />
+</div>
 
 The colors used where:
 - Gray: #1C2331
