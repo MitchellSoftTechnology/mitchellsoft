@@ -128,33 +128,48 @@ function popupModal(direction){
         <h3>Terms Of Use:</h3>
         <p>
             Throughout this notice, named organisations, refers to any individual or company identified in the
-            copyright notice on this web site.<br>
+            copyright notice on this web site.
+            <br>
+            <br>
             The data and information contained in the pages on this web site are copyright the named organisations.
-            All Rights Reserved.<br>
+            All Rights Reserved.
+            <br>
+            <br>
             The data and information presented on the pages on this web site may not under any circumstances be
             resold or redistributed for compensation of any kind without prior written permission from the named
             organisations. You are entitled to use the information provided on this web site for your own personal
             private use. You may not use any data or information provided on this web site in connection with any
             business or commercial undertaking. You are only entitled to use the information provided on this web
             site in responsible ways and this information may not be used in any malicious, illegal or anti-social
-            activity.<br>
+            activity.
+            <br>
+            <br>
             Please note that the information available on this web site, may be incomplete, out of date or
             incorrect. It is therefore essential that you verify all such information before taking any action in
             reliance upon it. It is a condition of us allowing you free access to the material on this web site that
             you accept that the named organisations will not be liable for any action you take in reliance on the
-            information held on this web site.<br>
+            information held on this web site.
+            <br>
+            <br>
             The named organisations, will not be liable to you under any circumstances whatsoever for any direct,
             indirect, punitive, consequential or special damages arising from your use of this web site.
             Whilst every effort has been made to portray items accurately, slight variations may occur. All
             measurements are approximate and are included for guidance only. E&OE.<br>
             All brand and product names are trademarks, registered trademarks or service marks of their respective
-            holders.<br>
+            holders.
+            <br>
+            <br>
             Links to other web sites are provided in good faith and the named organisations are not responsible for
-            their content.<br>
+            their content.
+            <br>
+            <br>
             By using this web site, you are deemed to have accepted the above Terms of Use. Your statutory rights
-            are not affected by this statement.<br>
+            are not affected by this statement.
+            <br>
+            <br>
             If you have any questions about these terms, or would like further information, please contact us via
-            e-mail at @@email
+            e-mail at enquiries@mitchellsoft.co.uk
+            <br>
             <br>
             Website Developed by <a target="_blank" href="http://www.Jonwhewaycode.co.uk">Jonwhewaycode.co.uk</a>
         </p>
@@ -223,7 +238,7 @@ function popupModal(direction){
         <p>Please note that any requests for correction/deletion may be refused due to other requirements
             including, but not limited to, legal or accounting requirements.</p>
         <p>
-            If you wish to exercise any of these rights please e-mail @@emails For security reasons
+            If you wish to exercise any of these rights please e-mail enquiries@mitchellsoft.co.uk For security reasons
             we may require you to provide proof of your identity and/or additional information that will help us
             respond to your request. We will respond to all legitimate requests within four weeks.
             You have the right to make a complaint at any time to the Information Commissioner's Office (ICO), the
