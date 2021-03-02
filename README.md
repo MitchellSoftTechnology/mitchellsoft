@@ -101,15 +101,21 @@ When the form is submitted a loading spinner will appear over the contact form, 
 
 ## Styling
 
-
 ### Font:
+<div align="center">
+    <img src="./assets/images/textused.jpg" alt="color card" width="90%" aria-label="font used" />
+</div>
+
+<br>
+
 * The company Logo used was a_atmosphericregular, I felt the the rigid lines made for a futuristic yet elegant technology font that work well with the company name.
 * Over all the main font used was standard Roboto. The standard font felt at home and was very legible.
+#
 
 ### Color scheme:
 
 <div align="center">
-    <img src="assets/images/color.jpg" alt="color card" aria-label="font used" />
+    <img src="./assets/images/color.jpg" alt="color card" width="50%" aria-label="font used" />
 </div>
 
 The colors used where:
@@ -117,7 +123,7 @@ The colors used where:
 - Green: #009688
   
 I felt both colours complimented the blues and purples in the hero image while giving a contemporary look to the overall site.
-
+#
 <br>
 
 ### Cross Browser Compatibility:
@@ -143,18 +149,23 @@ Deployment: The site will be deployed by https://pages.github.com/
 
 Deployed version or the site can be found @ https://mitchellsofttechnology.github.io/mitchellsoft/
 
+#
 ## Media:
 
 JavaScript Email service:
 https://www.emailjs.com/
 
-## Images
+## Images:
 
-Landing Image Photo by [James Padolsey]("https://unsplash.com/@padolsey?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText")
+Landing Image Photo by [James Padolsey](https://unsplash.com/photos/tvPvROBv0F4)
+
+Consultants images: Belong to Mitchell Soft Technology Ltd.
 
 
-## Content and code
+## Content and code:
 
 Code for the preloader was taken from here - https://bootsnipp.com/snippets/GaeVl
 
-[Back To Top](#Mitchell)
+
+## Website Created By :
+Jon Wheway Code: www.jonwhewaycode.co.uk
