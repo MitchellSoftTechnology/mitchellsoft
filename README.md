@@ -18,11 +18,11 @@ A website showcasing the consultants, applications and websites by Mitchell Soft
 * Information about the company.
 * Information on the consultants.
 * Projects and websites.
-* A way of contacting Mitchell soft Technology.
+* A way of contacting Mitchell Soft Technology.
 
 <br>
 
-### This Website is the best way to help them achieve these things because:
+### This Website is the best way to help achieve these goals because:
 * Information about the company: The about section clearly defines who Mitchell soft technology Ltd is and where and went it was founded.
 * Information on the consultants: The It consultancy section clearly defines who the consultants are, their bio information, career history and work ethics.
 * Projects and websites: The apps and website section, show cases a handful of projects and application that Mitchell Soft Technology Ltd has created over the years.
