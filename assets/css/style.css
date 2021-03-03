@@ -228,6 +228,7 @@ body{
 .card-title{
     font-size: 1.2rem!important;
 }
+
 /* ----------------- Websites -----------------*/
 
 .card-websites{
@@ -289,14 +290,6 @@ a:hover{
 }
 
 /* ------------------- Media Queries -----------------*/
-
-@media only screen and (min-width: 2560px){
-
-}
-
-@media only screen and (max-width: 2556px){
-
-}
 
 @media only screen and (max-width: 1440px){
     #company-name{
@@ -375,7 +368,6 @@ a:hover{
     .card-websites{
         min-height: 330px!important;
     }
-  
 }
 
 @media only screen and (max-width: 425px){
