@@ -127,7 +127,7 @@ I felt both colours complimented the blues and purples in the hero image while g
 <br>
 
 ### Cross Browser Compatibility:
-Tested on four Browsers
+Tested on 4 browsers across Windows and Linux
 | Browser       | Outcome             |
 | :------------ | :-------------------|
 | Chrome        | Works as intended.  |
