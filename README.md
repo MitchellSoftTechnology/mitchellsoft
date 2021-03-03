@@ -10,7 +10,7 @@
 # MitchellSoft Technology Ltd
 </div>
 
-A website showcasing the consultants, applications and websites by MitchellSoft Technology Ltd.  The consultant's believe in test driven, high quality business grade code,  with over 26 years of experience.
+A website showcasing the consultants, applications and websites by MitchellSoft Technology Ltd. The consultant's believe in test driven, high quality business grade code, with over 26 years of experience.
 
 <br>
 
@@ -44,15 +44,15 @@ A website showcasing the consultants, applications and websites by MitchellSoft 
 
 ## Features:
 * Single page application with a navigation bar across the top with links to Home, About, It Consultancy, Apps, Websites and Contact.
-* A hero image with company logo that fades in.
-* A bouncing icon to entice the user to scroll down.
-*  An about section with information about the company with images of technology's used.
-* A consultants section with images of the consultants there career history and work ethic, with links to their respective LinkedIn profiles.
-* An application's section showcasing apps created by MitchellSoft Technology, with links to google play store and popup modal with downloads for specific apps.
-* A website section displaying sites created and owned by MitchellSoft Technology.
-* Javascript contact form that sends messages stright to the company email.
-* A scroll to top button that appears when any page has been scrolled more than 100 pixels.
-* A pop up banner asking the user to agree to the use of cookies.
+* Hero image with company logo that fades in.
+* Bouncing icon to entice the user to scroll down.
+* About section with information about the company with images of technology's used.
+* Consultants section with images of the consultants there career history and work ethic, with links to their respective LinkedIn profiles.
+* Application's section showcasing apps created by MitchellSoft Technology, with links to google play store and popup modal with downloads for specific apps.
+* Website section displaying websites created and owned by MitchellSoft Technology.
+* JavaScript contact form that sends messages stright to the company email.
+* Scroll to top button that appears when any page has been scrolled more than 100 pixels.
+* Pop up banner asking the user to agree to the use of cookies.
 * Footer contains social media links and copyright information.
 
 <br>
@@ -82,13 +82,13 @@ This section contains images of consultants to the left and bio information to t
 The Applications section has navigation across the top,
 cards containing information about the relevant application with an image at the top, information in the middle and with links below that on each respective card. 
 
-Each card is injected into the page via JavaScript giving the website owner a simple way to expand this section without hard coding in the Html.
+Each card is injected into the page via JavaScript makeing the site scalable without hard coding in the Html.
 
 ### Websites:
 The Websites section has navigation across the top,
 cards containing information about the relevant websites with an image at the top, URL information below that, and respective site information at the bottom, each card can be clicked the user will then be take to the respective website of choice in a separate window. 
 
-Each card is injected into the page via JavaScript giving the website owner a simple way to expand this section without hard coding in the Html.
+Each card is injected into the page via JavaScript makeing the site scalable without hard coding in the Html.
 
 
 ### Contact:
@@ -128,8 +128,14 @@ I felt both colours complimented the blues and purples in the hero image while g
 
 ### Cross Browser Compatibility:
 Tested on four Browsers
-* Chrome    Works as intended.
-* Firefox   Works as intended.
+| Browser       | Outcome             |
+| :------------ | :-------------------|
+| Chrome        | Works as intended.  |
+| Firefox       | Works as intended.  |
+| Edge          | Works as intended.  |
+| Opera         | Some small rendering of -webkit- css especially caracter strokes tend not to quite display as smoothly as on other browsers |
+#
+
 
 
 <br>
