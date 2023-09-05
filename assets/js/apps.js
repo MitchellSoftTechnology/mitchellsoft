@@ -4,8 +4,6 @@ appsCollection = [
     to insert formatting, for example *this would be bold*, then view them with the markup turned into beautifully styled pages.', 
     button1_name: 'View in Google Play store', 
     button1_url: 'https://play.google.com/store/apps/details?id=uk.org.alexmitchell.wikid.android&hl=en&gl=US', 
-    // button2_name: 'Download for Desktop (Windows, Linux, Mac)', 
-    // button2_url: 'http://www.mitchellsoft.co.uk/wikid/',
     modal_button_name: 'Download for Desktop (Windows, Linux, Mac)',
     button_popup: "popupModal('wikiapp')"},
     // MPH

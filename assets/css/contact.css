@@ -160,11 +160,6 @@ form{
     }
 }
 
-
-@media only screen and (max-width: 425px){
-  
-}   
-
 @media only screen and (max-width: 375px){
     .tandc{
         font-size: 0.9rem;

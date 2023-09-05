@@ -10,7 +10,6 @@ window.onload = function () {
       emailjs.sendForm("service_d76oduc", "template_r8ainab", this).then(
         function (response) {
           // if the response is good
-          console.log("SUCCESS!", response.status, response.text);
           document.getElementById("overlayBox").innerHTML = "";
           document.getElementById(
             "messageSent"
@@ -18,7 +17,6 @@ window.onload = function () {
           document.getElementById("contact-form").reset();
         },
         function (error) {
-          console.log("FAILED...", error);
           document.getElementById("overlayBox").innerHTML = "";
           document.getElementById(
             "messageSent"
