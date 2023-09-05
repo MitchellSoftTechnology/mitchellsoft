@@ -6,11 +6,16 @@ appsCollection = [
     button1_url: 'https://play.google.com/store/apps/details?id=uk.org.alexmitchell.wikid.android&hl=en&gl=US', 
     modal_button_name: 'Download for Desktop (Windows, Linux, Mac)',
     button_popup: "popupModal('wikiapp')"},
-    // MPH
-    {appimage: 'assets/images/mph_logo.jpg', appname: 'MPH', apptext: 'MPH is a proprietary app, developed and used for a popular pancake house .\
-    It enables customers to customise and order breakfast items through an app rather than with waiting staff.', 
+    // // MPH
+    // {appimage: 'assets/images/mph_logo.jpg', appname: 'MPH', apptext: 'MPH is a proprietary app, developed and used for a popular pancake house .\
+    // It enables customers to customise and order breakfast items through an app rather than with waiting staff.', 
+    // button1_name: 'View in Google Play store', 
+    // button1_url: 'https://play.google.com/store/apps/details?id=uk.co.mitchellsoft.mph&hl=en&gl=US'},
+    // Anchor Alarm
+    {appimage: 'assets/images/anchor_alarm_logo.jpg', appname: 'Anchor Alarm', apptext: 'Anchor Alarm is an advanced application, which alerts you to the fact that \
+     your vessel\'s anchor may have dragged. Essential for piece of mind whilst at anchor.', 
     button1_name: 'View in Google Play store', 
-    button1_url: 'https://play.google.com/store/apps/details?id=uk.co.mitchellsoft.mph&hl=en&gl=US'},
+    button1_url: 'https://play.google.com/store/apps/details?id=uk.co.mitchellsoft.anchoralarm&hl=en&gl=US'},
     // Blue Toothpaste
     {appimage: 'assets/images/blue_toothpaste_logo.jpg', appname: 'Blue Toothpaste', 
     apptext: 'Have you ever wanted to quickly, easily share content from one Bluetooth-enabled device to another, \
