@@ -136,7 +136,7 @@ body{
 .parallax {
     /* Set a specific height */
     min-height: 100vh; 
-    background-image: url('../images/sailboat_sunset.jpg');
+    background-image: url('../images/bridge.jpg');
     width: 100%;
     background-attachment: fixed;
     background-position: center;
