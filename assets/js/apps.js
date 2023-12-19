@@ -27,11 +27,11 @@ appsCollection = [
 
 websiteCollection = [
     // The Baggy Soap Company
-    {siteImage: 'assets/images/baggy-soap-logo-original.png' ,
+    {siteImage: 'assets/images/new-logo.png' ,
     siteName: 'The Baggy Soap Company',
     siteInfo: 'The Baggy Soap Company is an e-Commerce website, selling high quality cosmetic products.',
     siteUrlName: 'www.baggysoap.co.uk',
-    siteUrl: 'http://www.baggysoap.co.uk/catalogue/'},
+    siteUrl: 'http://www.baggysoap.co.uk/'},
     // Benjamin Shepherd
     {siteImage: 'assets/images/benshep.jpg',
     siteName: 'Benjamin Shepherd', 
